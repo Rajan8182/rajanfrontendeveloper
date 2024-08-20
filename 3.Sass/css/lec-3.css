@@ -1,0 +1,23 @@
+/* bg-color*/
+/* text-color */
+/* flex-container */
+/* Misellenious */
+/* height*/
+/*width*/
+/* padding */
+/* margin */
+.nav-items {
+  background-color: purple;
+  padding: 10px;
+}
+.nav-items .links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+.nav-items .links li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=lec-3.css.map */

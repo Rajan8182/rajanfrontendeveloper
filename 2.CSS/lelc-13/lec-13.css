@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+}
+
+
+/* CSS TRANSFORM PROPERTIES
+CSS TARNSITION PROPERTIES
+CSS FILTER PROPERTIES
+CSS ANIMATIONS*/
+
+ /* Css 2D Transform Examples  */
+
+.translate{
+height: 100px;
+width: 100px;
+background-color: blueviolet;
+margin: 200px;
+font-size: 20px;
+color:
+white;
+transform: rotate(30deg, 60deg);
+}
+
+.translate:hover{
+transform: translate(100px, 200px);
+transform: scale(2);
+transform: skew(45deg);
+transform: rotate(100deg);
+transition: 2s;
+background-color: aqua;
+}
+/* Css 3D Transform Examples */
+
+.cover{
+    border: 2px solid
+    red;
+    /* height: 400px; */
+    /* width: 400px; */
+    /* margin:200px 300px; */
+}
+
+.cover:hover .content{
+    /* transform: perspective (600px) rotate3d(240 240 240 241deg); */
+    /* transition: 8s; */
+}
+
+.content{
+    /* height: 400px; */
+    /* width: 400px; */
+    /* background-color: ☐ green; */
+}
+
+/* Css Transition Examples */
+
+.main-box{
+    /* padding: 10px 0px; */
+    /* border:1px solid black; */
+    /* margin: 20px; */
+    /* width: 1000px; */
+}
+
+.transition{
+    /* height: 100px; */
+    /* width: 100px; */
+    /* border:1px solid black; */
+    /* background-color: red; */
+    
+}
+
+.transition:hover{
+    /* transform: translate (800px); */
+     /* transition-duration: 5s; */
+    /* transition-timing-function: ease;  */
+    /* transition: translate (800px) 10s ease-in-out; */
+    /* transition: ; */
+}
+
+    /* Css Filter */
+/* filter:blur(1px); */
+/* filter:brightness(50%); */
+/* filter:contrast(100%); */
+/* filter:grayscale(100%); */
+/* filter:hue-rotate (360deg); */
+/* filter:invert(0%); */
+/* filter: saturate (0%); */
+/* filter:opacity(1); */
+/* filter: sepia(1); */
+/* filter:none; */
+/* filter:drop-shadow (10px 20px 1px rgb(70, 15, 62))*/
+/* Css Filter Exampels */
+
+
+.filter img{
+    /* filter: drop-shadow (15px 15px 10px blue); */
+    /* filter: blur(10px); */
+    /* filter: brightness (50%); */
+    filter: contrast (50%);
+    /* filter:grayscale(100%); */
+    /* filter:hue-rotate(30deg); */
+    /* filter:invert (80%); */
+    /* filter:saturate (60%); */
+    /* filter:sepia(1); */
+}
+

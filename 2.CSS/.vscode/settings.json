@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "5_DIVI.C": "cpp",
+        "LARGE_NU.C": "cpp",
+        "VOTE_PRO.C": "cpp",
+        "PASS_FAI.C": "cpp",
+        "DIVISIBL.C": "cpp",
+        "CAPI_SMA.C": "cpp"
+    },
+    "liveServer.settings.port": 5501
+}

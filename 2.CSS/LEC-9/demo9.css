@@ -1,0 +1,59 @@
+.main{
+  background: #fafafa;
+  display: flex;
+  height: 1000px;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+}
+
+.TWITTER{
+  text-align: center;
+  height: 600px;
+  width: 450px;
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: rgb(2, 78, 130);
+  box-shadow:1px 1px 20px 20px rgb(177 133 104);
+
+}
+
+.img{
+  width: 200px;
+  height: 200px;
+}
+
+.TWE{
+  height: 300px;
+  width: 400px;
+}
+
+.INSTAGRAM{
+  text-align: center;
+  gap: 10px;
+  height: 600px;
+  width: 450px;
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: rgb(247 246 244);
+  box-shadow:1px 1px 20px 20px rgb(177 133 104);
+
+}
+.INS{
+  height: 290px;
+}
+
+.YOUTUBE{
+  text-align: center;
+  gap: 10px;
+  height: 600px;
+  width: 450px;
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: rgb(253, 253, 253);
+  box-shadow:1px 1px 20px 20px rgb(177 133 104);
+}
+.YOU{
+  height: 300px;
+  width: 200px;
+}

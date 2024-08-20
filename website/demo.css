@@ -1,0 +1,93 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/020/629/small_2x/banner-web-template-abstract-blue-and-golden-curved-lines-overlapping-layer-design-on-dark-blue-background-luxury-style-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.website {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.main {
+    display: flex;
+    height: 10px;
+
+    position: absolute;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 30px;
+    margin-inline-end: 0;
+    /* padding-left: 10px; */
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    margin: 20PX;
+    padding-right: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* .maindiv-1 {
+    padding-left: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .main-nav{
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        
+            a {
+                font-size: small;
+                font-family: 'Montserrat';
+                text-decoration: none;
+                font-weight: bold;
+                color: #002450;
+            }
+        
+            a:hover {
+                color: #00b7ff;
+                transition: 0.5s;
+            }
+          
+        }  
+    }    
+}
+ */

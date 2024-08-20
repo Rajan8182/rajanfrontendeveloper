@@ -1,0 +1,85 @@
+*{ 
+    margin: 0; 
+} 
+.main{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    height: 50px; 
+    /* background-color: aliceblue; */ 
+} 
+.left{ 
+    border: 2px solid;    
+    border-radius: 10px; 
+    padding: 6px; 
+} 
+.left:hover{ 
+    color: blue; 
+    transform: translateX(-10px); 
+    animation-duration: 5s; 
+    background-color: tan; 
+    /* background-color: aqua; */ 
+} 
+ 
+.one{ 
+    border: 2px solid; 
+    border-radius: 10px; 
+    padding: 6px; 
+} 
+.one:hover{ 
+    color: blue; 
+    transform: translatey(-10px); 
+    animation-duration: 5s; 
+    background-color: tan; 
+    /* background-color: blanchedalmond; */ 
+} 
+ 
+.two{ 
+    border: 2px solid; 
+    border-radius: 10px; 
+    padding: 6px; 
+} 
+.two:hover{ 
+    color: blue; 
+    transform: translatey(-10px); 
+    animation-duration: 5s; 
+    background-color: tan; 
+    /* border: none; */ 
+} 
+ 
+.three{ 
+    border: 2px solid; 
+    border-radius: 10px; 
+    padding: 6px; 
+} 
+.three:hover{ 
+    color: blue; 
+    transform: translatey(-10px); 
+    animation-duration: 5s; 
+    background-color: tan; 
+} 
+ 
+.four{ 
+    border: 2px solid; 
+    border-radius: 10px; 
+    padding: 6px; 
+} 
+.four:hover{ 
+    color: blue; 
+    transform: translatey(-10px); 
+    animation-duration: 5s; 
+    background-color: tan; 
+} 
+ 
+.right{ 
+    border: 2px solid; 
+    border-radius: 10px; 
+    padding: 6px;  
+} 
+.right:hover{ 
+    color: blue; 
+    transform: translateX(10px); 
+    animation-duration: 5s; 
+    background-color: tan; 
+}

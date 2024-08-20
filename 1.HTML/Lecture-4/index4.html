@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,td,th
+        {
+            border: 1px solid;
+            border-collapse: collapse ;
+            padding: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <!-- table row     -->
+        <tr>
+            <!-- table header -->
+            <th>Name</th>
+            <th>Email</th>
+            <th>ID</th>
+            <th>city</th>
+        </tr>
+
+        <tr>
+            <!-- table data -->
+            <td>raju</td>
+            <td>rajanchovatiya@gmail</td>
+            <td>1</td>
+            <td>surat</td>
+        </tr>
+    </table>
+
+    <!-- nested table -->
+    <table>
+        <tr>
+            <td rowspan="2">A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+
+        <tr>
+            <!-- <td>1</td> -->
+            <td colspan="2" rowspan="2">2</td>
+            <!-- <td>3</td> -->
+            <td>4</td>
+        </tr>
+
+        <tr>
+            <!-- <td>A</td> -->
+            <!-- <td>B</td> -->
+            <td>C</td>
+            <td>D</td>
+        </tr>
+
+        <tr>
+            <td colspan="4">1</td>
+            <!-- <td>2</td> -->
+            <!-- <td>3</td> -->
+            <!-- <td>4</td> -->
+        </tr>
+
+
+
+    </table>
+
+
+
+
+
+
+
+
+</body>
+</html>

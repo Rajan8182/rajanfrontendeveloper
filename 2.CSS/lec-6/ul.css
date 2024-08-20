@@ -1,0 +1,155 @@
+.div1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    box-shadow: 5px 5px 5px rebeccapurple;
+}
+
+.div2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    box-shadow:  0px 0px 20px 11px #03A9F4;
+}
+
+.div3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    box-shadow: inset 0px 0px 13px 5px #E91E63;
+}
+
+.div4{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    box-shadow: -7px -7px 10px 3px #4CAF50;
+}
+
+.div5{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    box-shadow: 7px 7px 10px #ff7500, -7px -7px 11px red;
+}
+
+
+.div6{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    box-shadow: -7px -7px 5px 0px #9C27B0, 7px -7px 6px #673AB7, -7px 7px 5px #3F51B5, 7px 7px 9px 2px #2196F3
+}
+
+.div7{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    box-shadow: inset -7px -7px 5px 0px #9C27B0, inset 7px -7px 6px #673AB7, inset -7px 7px 5px #3F51B5, inset 7px 7px 9px 2px #2196F3;
+}
+
+
+ul li {
+    list-style-type: none;
+    list-style-type: circle;
+    list-style-type: disc;
+    list-style-type: square;
+    list-style-type: decimal;
+    list-style-type: lower-alpha;
+    list-style-type: lower-roman;
+    list-style-type: upper-alpha;
+    list-style-type: upper-roman;
+    list-style-image: url(./lion.jpg);
+}
+
+ol li {
+    list-style-type: none;
+    list-style-type: circle;
+    list-style-type: disc;
+    list-style-type: square;
+    list-style-type: decimal;
+    list-style-type: lower-alpha;
+    list-style-type: lower-roman;
+    list-style-type: upper-alpha;
+    list-style-type: upper-roman;
+    list-style-image: url(./lion.jpg);
+}
+
+ /* p:empty {
+      width: 200px;
+      height: 30px;
+      background: magenta;
+   } */
+   /* div {
+      border: 3px solid black;
+      width: 300px;
+      text-align: center;
+   } */
+
+   /* a {
+      font-size: 1em;
+      padding: 5px;
+      display: inline-block;
+      margin-right: 10px;
+   } */
+/* 
+   a:link {
+      background-color: lightyellow;
+   } */
+
+   /* a:hover {
+      background-color: lightsalmon;
+      color: green;
+   } */
+
+   /* li:nth-child(odd) {
+            background: green;
+            font-size: 24px;
+             color:white;
+        }
+   li:nth-child(even) {
+            background: Blue;
+            font-size: 36px;
+            color:yellow;
+        }  */
+
+        /* input[type=text]:enabled {
+		background: white;
+	}
+
+	input[type=text]:disabled {
+		background: lightgrey;
+	} */
+
+	/* input {
+		width: 150px;
+		padding-left: 10px;
+		margin-top: 10px;
+		border: 1px solid rgb(204, 255, 0);
+	}
+    input:focus{
+        border: 10px solid rgb(204, 255, 0);
+    }
+
+   form {
+      border: 2px solid rgb(238, 8, 8);
+      width: 300px;
+      padding: 10px;
+   } */
+
+   ul li:first-child{
+    color: #4CAF50;
+   }
+  ul li:last-child{
+    color: #673AB7;
+  }
+
+
+  ol li:first-child{
+    color: #4CAF50;
+   }
+  ol li:last-child{
+    color: #673AB7;
+  }
+
+  

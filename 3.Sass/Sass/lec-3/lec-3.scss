@@ -1,0 +1,90 @@
+@import "./variables.scss";
+// Sass Nesting  ,  @Mixin , @extend , @function  , @at-root
+
+
+.nav-items {
+    background-color: $bg-color-4;
+    padding: $p-1;
+    // @at-root
+    .links {
+        display: $flex;
+        list-style-type: $list-none;
+        justify-content: $justify-se;
+        // @at-root
+        li {
+            a {
+                text-decoration: $text-d-none;
+                color: $color-1;
+            }
+        }
+
+    }
+}
+
+// @Mixin , @Content
+
+// @mixin flex_container($height:100px , ){
+//     display: $flex;
+//     justify-content: $justify-c;
+//     align-items: $align-c;  
+//     height: $height;
+//     @content;
+// }
+
+// .parent{
+//     @include flex_container(200px);
+// }
+
+// .box{
+//     @include flex_container(500px){
+//         width:$w-5;
+//     };
+// }
+
+// @extend
+
+// %sizes{
+//     background-color: $bg-color-4;
+//     color:$color-1;
+//     height: $h-2;
+//     width: $w-4;
+// }
+// %spacing{
+//     padding: $p-2;
+//     margin: $m-2;
+// }
+
+// .parent{
+//     @extend %sizes , %spacing;
+//     // @extend %spacing;
+// }
+
+// .box{
+//     @extend %sizes , %spacing;
+//     // @extend %spacing;
+// }
+
+
+// @function
+
+// $containerSize:100px;
+
+// @function container() {
+//     @return $containerSize * 5
+// }
+
+// ;
+
+// @function container2() {
+//     @return $containerSize * 10
+// }
+
+// ;
+
+// .box {
+//     width: container();
+// }
+
+// .parent {
+//     width: container2();
+// }

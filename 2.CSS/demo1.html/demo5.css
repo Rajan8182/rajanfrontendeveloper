@@ -1,0 +1,79 @@
+*{ 
+    margin: 0; 
+} 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{ 
+    height: 720px; 
+    width: 100%; 
+    background-color: white; 
+} 
+.blue{ 
+    height: 400px; 
+    width: 400px; 
+    filter: blur(50px); 
+    background-color: blue; 
+} 
+.eqva{ 
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    right: 0; 
+    height: 400px; 
+    width: 400px; 
+    filter: blur(50px); 
+    background-color: aqua; 
+} 
+.yellow{ 
+    position: absolute; 
+    bottom: 0; 
+    height: 400px; 
+    width: 400px;  
+    filter: blur(50px); 
+    background-color: yellow; 
+} 
+.red{ 
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    height: 400px; 
+    width: 400px; 
+    filter: blur(50px); 
+    background-color: red; 
+} 
+ 
+.form{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    position: absolute; 
+    gap: 20px; 
+    height: 250px; 
+    width: 240px; 
+    border-radius: 15px; 
+    border: 5px solid; 
+    display: flex; 
+} 
+.form:hover{ 
+    background-color: rgb(189, 124, 124); 
+    transition-duration: 2s; 
+} 
+.login{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+input:focus{ 
+    border: 5px solid blue; 
+} 
+button{ 
+    padding: 10px; 
+    background-color: orange; 
+    font-weight: 900; 
+    border: 2px solid; 
+    border-radius: 10px; 
+}

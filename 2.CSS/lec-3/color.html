@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 3</title>
+    <style>
+        /* Descendant Selector */
+        /* div p{
+            color: red;
+        } */
+        /* Child Selector */
+        /* .Box b{
+            color: red;
+        } */
+        /* Adjacent Selector */
+        /* h1 + p {
+            color: red;
+        } */
+        /* General Sibling Selector */
+        /* h1 ~ p{
+            color: red;
+        } */
+        /* Attribute Selector */
+        /* input[type='text']{
+            color: red;
+            background-color: yellow;
+        }
+        input[type='email']{
+            color: green;
+        }
+        input[type='password']{
+            color: brown;
+        } */
+        /* div{
+            border: 10px solid
+             red;
+            height: 200px;
+            width: 200px;
+            border-radius: 20px;
+            background-color: #e3aa27;
+        } */
+        .liner-gradient{
+            height: 50px;
+            width: 100%;
+            background: linear-gradient(to right, red, blue,yellow);
+        }
+        .diagonal-liner-gradient{
+            height: 50px;
+            width: 100%;
+            background: linear-gradient(to bottom left, red 50%,yellow 50%);
+        }
+        .liner-gradiant-rainbow{
+            height: 500px;
+            width: 500px;
+            border-radius: 100%;
+            background: linear-gradient(to top, red, orange, yellow, green, blue, indigo, violet);
+        }
+        .radial-gradient-simple{
+            height: 800px;
+            width: 100%;
+            background: radial-gradient(red, orange, yellow, green, blue);
+        }
+        .radial-gradient{
+            height: 100vh;
+            width: 100%;
+            background: radial-gradient(circal farthest-corner at right,red, orange);
+        }
+        .bullseye{
+            height: 100vh;
+            width: 100;
+            background: repeating-radial-gradient(red, red 5%, white, white 20%;
+        }  
+        .warning{
+            height: 100vh;
+            width: 100%;
+            background: repeatin-linear-gradient(30deg, yellow, yellow 10%, black 10%, black 20%);
+        }
+        .conic{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+            background-image: conic-gradient(red, rgb(0, 255, 30), rgb(128, 0, 102));
+        }
+</style>
+</head>
+<body>
+    <!-- <div class="Box">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, ipsa?</p>
+        <b>Dev</b>
+    </div> -->
+    <!-- <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <h1>Lorem ipsum dolor sit amet.</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p> -->
+    <!-- <input type="text" name="" id="" placeholder="Name">
+    <input type="email" name="" id="" placeholder="Email">
+    <input type="password" name="" id="" placeholder="password"> -->
+    <div class="background"></div>
+    <div class="liner-gradient"></div>
+    <div class="diagonal-liner-gradient"></div>
+    <div class="liner-gradiant-rainbow"></div>
+    <div class="radial-gradient-simple"></div>
+    <div class="radial-gradient"></div>
+    <div class="bullseye"></div>
+    <div class="warning"></div> 
+    <div class="conic"></div>
+</body>
+</html>

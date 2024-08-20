@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+*{
+    font-family: "Sedan SC", serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-align: center;
+    text-decoration:none;
+    text-transform: capitalize;
+
+    
+}
+
+.main{
+     display: grid;
+    /* display: flex; */
+    grid-template: 200px;
+    background:linear-gradient(45deg, blueviolet,lightgreen);
+    padding:0px;
+    justify-content: center;
+    padding-bottom: 0px;
+    /* padding-top: 0px; */
+}
+
+.box-main{
+    
+    grid-template: 100px;
+    height:800px;
+    margin: 100px;
+    padding: 100px;
+    justify-items: start;
+    grid-gap:15px;  
+}
+.box{
+    box-shadow: 0 5px 10px rgba(0, 0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+.box{
+    width: 450px;
+    height: 550px;
+    margin: 100px;
+    padding-left: 0;
+    background: #fff;
+    border-radius: 1%;
+    box-shadow: 0 5px 10px rgba(0, 0,0,.2);
+
+    /* overflow: hidden; */
+}
+
+.air{
+    width: 450px;
+    height: 550px;
+    margin: 100px;
+    padding-left: 0;
+    background: #fff;
+    border-radius: 1%;
+    box-shadow: 0 5px 10px rgba(0, 0,0,.2);
+
+    /* overflow: hidden; */
+}
+
+.max{
+    width: 450px;
+    height: 550px;
+    margin: 100px;
+    padding-left: 0;
+    background: #fff;
+    border-radius: 1%;
+    box-shadow: 0 5px 10px rgba(0, 0,0,.2);
+
+    /* overflow: hidden; */
+}
+img {
+    height: 350px;
+    width: 450px;
+}
+.btn{
+    margin-top: 10px;
+    display:inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}

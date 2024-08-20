@@ -1,0 +1,368 @@
+*{  
+    margin: 0;  
+}  
+  
+.website{ 
+    background-color: #000000b3;  
+    height: 740px;  
+    width: 100%;  
+    justify-content: space-around; 
+}  
+  
+.main{  
+    display: flex;  
+    height: 10px;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 20px;  
+}    
+  
+.logo{  
+    color: black;  
+    font-weight: 900;  
+    font-size: 50px;  
+}  
+  
+ul li{  
+    margin: 30px;  
+    color: rgb(0, 0, 0);  
+    list-style-type: none;  
+    text-decoration: none; 
+    font-size:50PX;
+    display: inline;  
+}  
+ul a{  
+    color: rgb(0, 0, 0);  
+    list-style-type: none;  
+    text-decoration: none;  
+}  
+  
+a:hover{  
+    color: rgb(255, 255, 0);  
+}  
+  
+  
+  
+  
+  
+.img1{  
+    height: 472.17px;  
+    margin: 50px;  
+}  
+.about{  
+    display: flex;  
+    margin: 200px;
+}  
+.para h1{  
+    padding-top: 90px;  
+    font-size: 60px;  
+}  
+.para p{  
+    padding-top: 20px;  
+    font-family: "Open Sans", Arial, sans-serif;  
+    font-size: 20px;  
+}  
+.para button{  
+    padding: 20px;  
+    background-color: orange;  
+    color: white;  
+    border-radius: 10px;
+    width: 160px;  
+    font-weight: 500;  
+}  
+  
+  
+  
+.con{  
+    display: flex;  
+    justify-content: space-evenly;  
+    margin: 200px;  
+}  
+.idea{  
+    text-align: center;  
+    height: 110px;  
+    width: 300px;  
+}  
+.concept{  
+    text-align: center;  
+    height: 110px;  
+    width: 300px;  
+}  
+.design{  
+    text-align: center;  
+    height: 110px;  
+    width: 300px;  
+}  
+.coding{  
+    text-align: center;  
+    height: 110px;  
+    width: 300px;  
+}  
+  
+  
+.identy{  
+    margin: 200px;  
+    height: 350px;  
+    width: 500px;
+}  
+.lettr h1{  
+    font-size: 60px;  
+}  
+.lettr button{  
+    border-color: orange;  
+    background-color: rgb(255, 255, 255);  
+    color: orange;  
+    border-radius: 10px;
+    padding: 20px;  
+    width: 160px;  
+}  
+  
+  
+  
+.morden{  
+    display: flex;  
+    justify-content: space-between;  
+    margin: 100px;  
+}  
+.mo{  
+    height: 100px;  
+    width: 280px;  
+}  
+.mo h2:hover{  
+    color: orange;  
+}  
+.docyu{  
+    height: 100px;  
+    width: 280px;  
+}  
+.docyu h2:hover{  
+    color: orange;  
+}  
+.support{  
+    height: 100px;  
+    width: 280px;  
+}  
+.support h2:hover{  
+    color: orange;  
+}  
+  
+  
+  
+.moden2{  
+    display: flex;  
+    justify-content: space-between;  
+    margin: 100px;  
+}  
+.fast{  
+    height: 100px;  
+    width: 280px;  
+}  
+.fast h2:hover{  
+    color: orange;  
+}  
+.org{  
+    height: 100px;  
+    width: 280px;  
+}  
+.org h2:hover{  
+    color: orange;  
+}  
+.respo{  
+    height: 100px;  
+    width: 280px;  
+}  
+.respo h2:hover{  
+    color: orange;  
+}  
+  
+  
+.morden3{  
+    display: flex;  
+    justify-content: space-between;  
+    margin: 100px;  
+}  
+.high{  
+    height: 100px;  
+    width: 280px;  
+}  
+.high h2:hover{  
+    color: rgb(255, 0, 0);  
+}  
+.eazy{  
+    height: 100px;  
+    width: 280px;  
+}  
+.eazy h2:hover{  
+    color: rgb(255, 0, 0);  
+}  
+.pixel{  
+    height: 100px;  
+    width: 280px;  
+}  
+.pixel h2:hover{  
+    color: orange;  
+}  
+  
+ 
+ 
+.photo{  
+    display: flex; 
+}  
+.img2{  
+    justify-self: center; 
+    align-items: center; 
+    display: flex;  
+    width: 700px;  
+    height: 900px;  
+    background-color: gray;  
+} 
+.img2 img{ 
+    height: 700px; 
+    width: 600px; 
+} 
+.highqu{  
+    display: flex;
+    width: 730px;  
+    background-color: orange;  
+    color: white;  
+    justify-content: center;  
+    align-items: center;  
+} 
+.hig{ 
+    height: 500px; 
+    width: 550px;
+} 
+.hig h1{ 
+    font-size: 90px; 
+} 
+.hig h3{ 
+    font-size: 24px; 
+} 
+.hig button{ 
+    background-color: orange; 
+    border-color: rgb(0, 0, 0); 
+    border-width: 3px; 
+    border-style: solid; 
+    border-radius: 10px;
+    color: white; 
+    padding: 15px; 
+    font-size: 25px; 
+} 
+.hig button:hover{  
+    color: rgb(255, 255, 255);  
+}  
+ 
+ 
+.potfoliyo{ 
+    display: flex; 
+    justify-content: center; 
+    align-items:center; 
+    margin: 100px; 
+    height: 500px; 
+} 
+.pot{ 
+    width: 600px; 
+} 
+.pot h1{ 
+    font-size: 90px; 
+    font-weight: 900; 
+} 
+.pot h2{ 
+    font-size: 25px; 
+} 
+.pot h3{ 
+    font-size: 20px; 
+} 
+.pot button{ 
+    font-size: 20px; 
+    padding: 20px; 
+    background-color: orange; 
+    color: white; 
+    border-radius:10px;
+    width: 250px; 
+    border-style: none; 
+} 
+  
+.footer{ 
+    gap: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    justify-content: space-evenly; 
+    height: 300px; 
+    background-color: #f7f7f7; 
+} 
+.footer img{ 
+    height: 90px; 
+    
+} 
+ 
+ 
+.foot{  
+    height: 600px;  
+    background-color:#545454;  
+    color: white;  
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}  
+footer{ 
+    display: flex; 
+    gap: 50px; 
+} 
+.abo{  
+    height: 200px;  
+    width: 300px; 
+}
+.abo h1{ 
+    padding-bottom: 50px; 
+} 
+.contact{ 
+    height: 200px; 
+    width: 300px; 
+} 
+.contact h1{ 
+    padding-bottom: 50px; 
+} 
+.contact p{ 
+    padding-bottom: 20px; 
+} 
+.bloogrol{ 
+    height: 350px; 
+} 
+.bloogrol h1{ 
+    padding-bottom: 50px; 
+} 
+.bool{ 
+    display: grid; 
+    row-gap: 9px;     
+} 
+.bool a{ 
+    color: white; 
+    text-decoration: none; 
+    font-weight: 980; 
+} 
+.bool a:hover{ 
+    color: rgb(0, 0, 0); 
+} 
+.quick{ 
+    height: 200px; 
+    width: 300px; 
+    /* background-color: gray; */ 
+} 
+.quick h1{ 
+    padding-bottom: 50px; 
+} 
+.qui{ 
+    display: grid; 
+    row-gap: 9px; 
+} 
+.qui a{ 
+    color: white; 
+    text-decoration: none; 
+    font-weight: 980; 
+} 
+.qui a:hover{ 
+    color: rgb(0, 0, 0); 
+}
+

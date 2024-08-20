@@ -1,0 +1,18 @@
+.main{
+  background: #030304;
+  display: flex;
+  height: 1000px;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+} 
+
+.raju
+{
+  text-align: center;
+}
+
+h1{
+  font-size: 200PX;
+  text-shadow:red 17px 8px 15px;
+}

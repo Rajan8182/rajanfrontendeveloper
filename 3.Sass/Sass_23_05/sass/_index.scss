@@ -1,0 +1,18 @@
+@use './variables' as *;
+
+
+.nav-items{
+    background-color: $bg-color-4;
+    padding:$p-1;
+}
+
+.links{ 
+    display: $flex;
+    list-style-type: $list-none;
+    justify-content: $justify-se;
+}
+
+.links li a{
+    text-decoration: $text-d-none;
+    color:$color-1;
+}

@@ -1,0 +1,69 @@
+.mainbox{
+    display: flex;
+    column-gap: 20px;
+    width: 800px;
+    height: 800px;
+    border: 2px solid green;
+    /* background-color: rgb(4, 250, 32); */
+    padding: 10px;
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+    /* align-content: stretch; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: initial; */
+
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction and flex-wrap */
+    /* flex-flow:row wrap; */
+
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* justify-content: stretch; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: initial; */
+    /* justify-content: center; */
+    /* justify-content: end; */
+
+}
+.box-1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    background-color:rebeccapurple;
+     margin: 5px;
+}
+.box-2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    background-color: red;
+    margin: 5px;
+}
+
+.box-3{
+    width:100px;
+    height: 100px;
+    border: 2px solid;
+    background-color: green;
+    margin: 5px;
+}
+
+.box-4{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    background-color: yellow;
+    margin: 5px;
+}
+
+

@@ -1,0 +1,70 @@
+.wrapper{
+display: grid;
+/* fr ==> fraction */
+/* Column ma divide kare */
+/* grid-template-columns: 200px 200px 200px; */
+/* grid-template-columns: 1fr 1fr 1fr; */
+/* grid-template-columns: repeat (5, 1fr); */
+/* grid-template-columns: repeat (3, 200px); */
+/* row ma divide kare */
+/* grid-template-rows: 1fr 1fr 1fr; */
+grid-template-rows: 100px 100px 160px;
+/* grid-template: none | <grid-template-rows> / <grid-template-columns>; */
+/* border:1px solid; */
+grid-template: 100px 100px 100px/ 200px 100px 100px;
+/* grid-gap: 100px 200px; */
+/* column-gap: 100px; */
+/* row-gap: 100px; */
+/*use gap for new gap: 100px 200px;*/
+/* grid-template-columns: 50px 50px 50px;
+grid-template-rows: auto;
+grid-template-areas: "header header header"
+"main sidebar"; */
+/* "footer footer footer"; */
+/* Height */
+/* grid-auto-rows: 100px; */
+/* grid-auto-rows:minmax (100px, auto); */
+/* Height */
+/* Width */
+/* grid-auto-columns: 100px; */
+/* grid-auto-columns:minmax (50px,1fr) */
+/* justify-items: start | end | center | stretch; */
+/* justify-items: stretch; */
+/* align-items: start | end | center | stretch; */
+/* align-items: center; */
+/* height: 600px;
+border: 1px solid; */
+/* place-items sets both the align-items and justify-items properties in a single declaration. */
+/* place-items: center; */
+/*justify-content: start | end | center | stretch */
+/* justify-content: end; */
+/* align-content: start | end | center | stretch | space-around | space-between | space-evenly; */
+/* align-content: start; */
+} 
+/* .mainBox{
+display: grid;
+grid-template-columns: 50px 50px 50px 50px;
+grid-template-rows: auto;
+grid-template-areas:
+"header header header header"
+"main main sidebar"
+"footer footer footer footer";
+}  */
+.box{
+background-color: rgb(224, 72, 72);
+border :1px solid;
+border-radius: 5px;
+}
+
+.box-1 {
+grid-area: header;
+}
+.box-2 {
+grid-area: main;
+}
+.box-3 {
+grid-area: sidebar;
+}
+.box-4 {
+grid-area: footer;
+} 

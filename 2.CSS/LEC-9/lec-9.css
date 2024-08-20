@@ -1,0 +1,55 @@
+ .main{
+  background: #030304;
+  display: flex;
+  height: 1000px;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+} 
+
+.mobile{
+  /* padding-top: 1px; */
+  text-align: center;
+  height: 600px;
+  width: 450px;
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: rgb(51, 58, 58);
+  box-shadow: 1px 1px 20px 20px rgb(120 31 9);
+}
+
+img{
+  width: 450px;
+  height: 290px;
+}
+.mob{
+  height: 290px;
+}
+
+.leptop{
+  text-align: center;
+  height: 600px;
+  width: 450px;
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: rgb(51, 58, 58);
+  box-shadow:1px 1px 20px 20px rgb(177 133 104);
+
+}
+.lep{
+  height: 290px;
+}
+
+.hadphone{
+  text-align: center;
+  height: 600px;
+  width: 450px;
+  border: 2px solid;
+  border-radius: 6px;
+  background-color: rgb(51, 58, 58);
+  box-shadow:1px 1px 20px 20px rgb(142 132 130);
+
+}
+.hade{
+  height: 290px;
+}

@@ -1,0 +1,26 @@
+/* bg-color*/
+/* text-color */
+/* flex-container */
+/* Misellenious */
+/* height*/
+/*width*/
+/* padding */
+/* margin */
+.items {
+  background-color: purple;
+  padding: 10px;
+  margin: 30px;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+.links li a {
+  text-decoration: none;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

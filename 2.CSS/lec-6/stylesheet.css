@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AdidasFootball';
+    src: url('AdidasFootball.woff2') format('woff2'),
+        url('AdidasFootball.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

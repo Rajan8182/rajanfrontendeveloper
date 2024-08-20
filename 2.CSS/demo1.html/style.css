@@ -1,0 +1,38 @@
+/* css calc() unit */
+body{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    font-size: calc(5vw + 5px);
+    text-align: center;
+}
+
+.container{
+    max-width:calc(100vw - 10vw);
+    background-color: slategray;
+    margin-inline: auto;
+}
+
+section{
+    border:2px solid black;
+}
+
+/* Pagination in css */
+
+.box{
+    height:100vh;
+    background-color: green;
+    .child{
+        height: 100px;
+        background-color: red;
+    }
+}
+
+
+
+
+
+
+

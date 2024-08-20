@@ -1,0 +1,146 @@
+/* ul{ */
+    /* height: 1px;
+    width: 1px; */
+    /* list-style-image: url('../Image/photo_6165841169259543951_m.jpg'); */
+/* } */
+
+
+/* <!-- Pasudoclasses --> */
+
+/* ul li:first-child{
+    color:red;
+} */
+
+/* ul li:last-child{
+    color:blue;
+} */
+
+/* ul li:nth-child(odd){
+    color: yellow;
+} */
+
+/* ul li:nth-child(even){
+    color: chartreuse;
+} */
+
+/* ul li:nth-child(4){
+    color: chartreuse;
+} */
+
+/* .container p:first-of-type{
+    color: blue;
+} */
+
+/* .container p:last-of-type{
+    color: green;
+} */
+
+/* .container p:nth-last-of-type(2){
+    color: green;
+} */
+
+/* .container p:nth-of-type(2){
+    color: green;
+} */
+
+/* a[href="www.google.com"]{
+    background-color: yellow;
+} */
+
+/* a[href="www.facebook.com"]{
+    background-color: red;
+} */
+
+/* div[class*="x"]{
+    height: 100px;
+    background-color: green;
+    border: 2px solid red;
+} */
+
+/* input[type]{
+    border: 1px solid red;
+} */
+
+/* div[class~="highlight"]{
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    background-color: yellow
+} */
+
+/* p[lang|="en"]{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+/* input[type^="text"]{
+    background-color: green;
+} */
+
+/* img[sec$=".png"]{
+    border: 2px solid;
+} */
+
+/* a:link{
+    color: red;
+}
+
+a:visited{
+    color: pink;
+}
+
+a:hover{
+    color: violet;
+}
+
+a:active{
+    color: aqua;
+} */
+
+/* input[type="checkbox"]:checked + label{
+    color: green;
+} */
+
+/* .empty-example{
+    background-color: red;
+} */
+
+/* .non-empty-example{
+    background-color: red;
+} */
+
+/* input:enabled, button:enabled{
+    background-color: green;
+    color: white;
+} */
+
+/* Focus */
+/* input:focus{
+    border: 5px solid red;
+} */
+
+/* Only Child  */
+/* p:only-child{
+    color: blue;
+} */
+
+/* :root{
+    --color:red;
+    --darkcolor: green;
+    --bgcolor: violet;
+} */
+
+/* .box{
+    height: 100px;
+    width: 200px;
+    background-color: var(--bgcolor);
+} */
+
+/* input:valid{
+    color: green;
+} */
+
+p{
+    font-family:'AdidasFootball';
+    src: url('/fount-family/AdidasFootball.woff') format('woff');
+}
