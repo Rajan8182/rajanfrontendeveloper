@@ -13,15 +13,15 @@ const Card = ({links , names , discs}) => {
         <div>
             <div className='w-72 border'>
                 <div>
-                    <img src={links[count]} alt="" />
+                    <img src={links[count]} className='h-50 w-50' alt="" />
                 </div>
                 <div className='p-4'>
                     <h1 className='font-bold text-2xl mb-4'>{names[count]}</h1>
                     <p>{discs[count]}</p>
                     <a className='bg-purple-600 text-white p-2 inline-block mt-4' href="">Click Me</a>
                 </div>
+                <button onClick={handleChange}>Click Me</button>
             </div>
-            <button onClick={handleChange}>Click Me</button>
         </div>
     )
 }
