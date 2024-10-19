@@ -4,6 +4,8 @@ import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDis
 export default function Model() {
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
+
+  
   return (
     <>
       <Button onPress={onOpen}>Open Modal</Button>

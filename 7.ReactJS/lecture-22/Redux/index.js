@@ -48,6 +48,5 @@ store.dispatch(increment())
 store.dispatch(reset())
 
 store.dispatch(increment())
-store.dispatch(increment())
 
 unsubscribe()
