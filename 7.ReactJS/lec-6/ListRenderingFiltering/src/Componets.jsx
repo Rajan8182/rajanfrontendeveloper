@@ -1,34 +1,17 @@
 import React from "react";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 
-export default function Componets() {
-  const {isOpen, onOpen, onClose} = useDisclosure();
-  const [size, setSize] = React.useState('md')
-
-  const sizes = ["xs", "sm", "md", "lg", "xl", "2xl", "3xl", "4xl", "5xl", "full"];
-
-
-  const handleOpen = (size) => {
-    setSize(size)
-    onOpen();
-  }
+export default function Model() {
+  const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
   return (
     <>
-      <div className="flex flex-wrap gap-3">
-        {sizes.map((size) => (
-          <Button key={size} onPress={() => handleOpen(size)}>Open {size}</Button>
-        ))}  
-      </div>
-      <Modal 
-        size={size} 
-        isOpen={isOpen} 
-        onClose={onClose} 
-      >
+      <Button onPress={onOpen}>Open Modal</Button>
+      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">Modal Title</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1 bg-purple-600">Modal Title</ModalHeader>
               <ModalBody>
                 <p> 
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -44,6 +27,8 @@ export default function Componets() {
                   Magna exercitation reprehenderit magna aute tempor cupidatat consequat elit
                   dolor adipisicing. Mollit dolor eiusmod sunt ex incididunt cillum quis. 
                   Velit duis sit officia eiusmod Lorem aliqua enim laboris do dolor eiusmod. 
+                  Et mollit incididunt nisi consectetur esse laborum eiusmod pariatur 
+                  proident Lorem eiusmod et. Culpa deserunt nostrud ad veniam.
                 </p>
               </ModalBody>
               <ModalFooter>

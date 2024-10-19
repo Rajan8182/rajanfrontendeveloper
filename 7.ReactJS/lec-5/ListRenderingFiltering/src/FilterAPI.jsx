@@ -6,7 +6,7 @@ const FilterAPI = () => {
     const[data , setData] = useState([])    
 
     const ProductData = () => {
-        let response = fetch('https://fakestoreapi.com/products')
+        let response = fetch('https://fakestoreapi.com/carts')
         .then((response) => {
             return response.json()
         })

@@ -24,7 +24,7 @@ const Conditional = ({name , inStock}) => {
       <ul>
         <ProductList name=" Air Conditioners" inStock={true}/>
         <ProductList name="Refrigerators" inStock={false}/>
-        <ProductList name="Microwave Ovens" inStock={true}/>
+        <ProductList name="Microwave Ovens" inStock={false}/>
         <ProductList name="Gas Stoves" inStock={true}/>
         <ProductList name="Juicers" inStock={false}/>
 

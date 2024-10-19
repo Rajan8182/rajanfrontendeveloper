@@ -1,0 +1,12 @@
+/*   React Redux Concept */
+
+/* File Structure */
+
+/*
+
+Constant
+Action
+Reducer
+Store
+
+*/

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .heading{
+        @apply text-center text-4xl text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-4 border-2 border-solid m-4 rounded-xl
+    }
+    .button{
+        @apply p-4 bg-gradient-to-r from-cyan-500 to-blue-500  text-white border-2 border-solid text-2xl rounded-xl
+    }
+}

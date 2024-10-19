@@ -1,6 +1,7 @@
 import React from 'react'
+import App from './App.css'
 
-const Quotes = [
+const profile = [
     '“Be yourself; everyone else is already taken.”',
     '“So many books, so little time.”',
     '“A room without books is like a body without a soul.”',
@@ -16,7 +17,7 @@ const ListRendering = () => {
             <h1 className='heading'>React List Rendering</h1>
             <ul>
                 {
-                    Quotes.map((item) => {
+                     profile.map((item) => {
                         return <li>{item}</li>
                     })
                 }

@@ -1,6 +1,5 @@
 import './App.css'
-import AxiosPost from './Hooks/AxiosPost'
-
+import AxiosPost from './Hook/AxiosPost'
 function App() {
 
   return (

@@ -6,9 +6,9 @@ import { useState } from 'react';
 const AxiosPost = () => {
 
     const [data , setData] = useState({
-        FirstName: '',
-        LastName: '',
-        Age: '',
+        FirstName: 'Rajan',
+        LastName: 'Chovatiya',
+        Age: '21',
     })
 
     console.log(data);

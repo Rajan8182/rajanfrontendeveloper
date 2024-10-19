@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
+import App from './App.css';
 
-/* React Hooks useState Hook */
 
 const profile = [
     {
@@ -37,7 +37,7 @@ const profile = [
     {
         id: 6,
         name: 'Vruti',
-        age: 22,
+        age:19,
         gender: 'female'
     }
 ]
@@ -48,11 +48,11 @@ const FilteringData = () => {
 
     console.log(profileData);
 
-    const FilterData = profile.filter((item) => item.gender == profileData)
+    // const FilterData = profile.filter((item) => item.gender == profileData)
 
-    // const FilterData = profile.filter((item) => item.name.length < 6)
+    const FilterData = profile.filter((item) => item.name.length < 6)
 
-    // const FilterData = profile.filter((item) => item.age > 18 && item.age < 30)
+    // const FilterData = profile.filter((item) => item.age >= 19 && item.age < 3)
 
     //  const FilterData = profile.filter((item) => item.gender == 'male')
 
@@ -68,14 +68,14 @@ const FilteringData = () => {
     return (
         <div>
             <h1 className='heading'>React DataFiltering Useing Array</h1>
-            <div className='flex justify-around'>
+            <div className='filter'>
                 <button onClick={handleMale}>Male</button>
                 <button onClick={handleFemale}>Female</button>
                 {
                     FilterData.map((item) => {
                         return (
                             <div key={item.id}>
-                                <ul>
+                                <ul class="ul">
                                     <li>{item.name}</li>
                                     <li>{item.age}</li>
                                     <li>{item.gender}</li>
