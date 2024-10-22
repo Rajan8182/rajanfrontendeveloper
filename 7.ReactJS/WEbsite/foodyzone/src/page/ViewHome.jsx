@@ -1,11 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
-import img_4 from "../pic/fresh.jpg";
+import img_4 from "../pic/Blog_1.jpg";
 import img_5 from "../pic/Blog_11.jpg";
 import img_6 from "../pic/Blog_6.jpg";
 import img_7 from "../pic/Blog_7.jpg";
-import img_8 from "../pic/blog-9.jpg";
-import img_9 from "../pic/blog-10.jpg";
+import img_8 from "../pic/Blog_9.jpg";  
+import img_9 from "../pic/Blog_10.jpg";
 
 function ViewHome() {
   const settings = {

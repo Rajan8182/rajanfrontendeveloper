@@ -9,11 +9,11 @@ const reactSlice = createSlice(
         },
         reducers:{
             increment:(state) => {
-                state.item += 1 // state.item = state.item + 1
+                state.item += 1 
                 console.log("Increment Called");
             },
             decrement:(state) => {
-                state.item -= 1 // state.item = state.item - 1
+                state.item -= 1 
                 console.log("Decrement Called");
             },
         }

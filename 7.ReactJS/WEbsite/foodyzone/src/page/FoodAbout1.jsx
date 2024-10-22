@@ -1,42 +1,4 @@
-// import React from "react";
-// import img_23 from "../pic/f-1.jpg";
-// import img_24 from "../pic/f-2.jpg";
-// import img_25 from "../pic/f-3.jpg";
 
-// const FoodAbout1 = () => {
-//   return (
-//     <div>
-//       <div className="flex flex-wrap justify-center gap-10">
-//         <div className="relative w-[400px] h-[400px] rounded-xl overflow-hidden">
-//           <img className="border-none object-cover" src={img_23} />
-//           <div className="absolute bottom-6 left-3 text-center text-3xl font-bold text-white">
-//           Food Sourcing
-//           </div>
-//         </div>
-//         <div className="relative w-[400px] h-[400px] rounded-xl overflow-hidden">
-//           <img
-//             className="border-none w-full h-full object-cover"
-//             src={img_24}
-//           />
-//           <div className="absolute bottom-6 left-3 text-center text-3xl font-bold text-white">
-//           Menu Devlopment
-//           </div>
-//         </div>
-//         <div className="relative w-[400px] h-[400px] rounded-xl overflow-hidden">
-//           <img
-//             className="border-none w-full h-full object-cover"
-//             src={img_25}
-//           />
-//           <div className="absolute bottom-6 left-3 text-center text-3xl font-bold text-white">
-//           Restaurant
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default FoodAbout1;
 
 
 import React from "react";
