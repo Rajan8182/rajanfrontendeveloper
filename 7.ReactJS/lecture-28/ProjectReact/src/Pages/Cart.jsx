@@ -11,8 +11,8 @@ const Cart = () => {
   return (
     <div>
       {CartData}
-      <button onClick={() => dispatch(remove_to_cart())}>REMOVE_TO_CART</button>
-      <button onClick={() => dispatch(empty_cart())}>EMPTY_CART</button>
+      <button onClick={() => dispatch(remove_to_cart())} className='flex flex-col items-center mt-6 justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-5 text-white border-white border-2 rounded-xl'>REMOVE_TO_CART</button>
+      <button onClick={() => dispatch(empty_cart())}  className='flex flex-col items-center mt-6 justify-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-5 text-whitep-5 border-white border-2 rounded-xl'>EMPTY_CART</button>
     </div>
   )
 }

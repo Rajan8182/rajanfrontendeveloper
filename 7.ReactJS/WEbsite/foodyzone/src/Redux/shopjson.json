@@ -1,0 +1,197 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Guacamole Greens",
+        "description": "Roasted Chicken, Avocado, Tomatoes, Red Onions, Shredded Cabbage",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 8.0
+          },
+          {
+            "size": "Large",
+            "price": 12.0
+          }
+        ],
+        "image": "pic/202.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Guacamole Greens",
+        "description": "Roasted Chicken, Avocado, Tomatoes, Red Onions, Shredded Cabbage",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 8.0
+          },
+          {
+            "size": "Large",
+            "price": 12.0
+          }
+        ],
+        "image": "pic/Blog_11.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Guacamole Greens",
+        "description": "Roasted Chicken, Avocado, Tomatoes, Red Onions, Shredded Cabbage",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 8.0
+          },
+          {
+            "size": "Large",
+            "price": 12.0
+          }
+        ],
+        "image": "pic/Blog_6.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Guacamole Greens",
+        "description": "Roasted Chicken, Avocado, Tomatoes, Red Onions, Shredded Cabbage",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 8.0
+          },
+          {
+            "size": "Large",
+            "price": 12.0
+          }
+        ],
+        "image": "pic/Blog_7.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Guacamole Greens",
+        "description": "Roasted Chicken, Avocado, Tomatoes, Red Onions, Shredded Cabbage",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 8.0
+          },
+          {
+            "size": "Large",
+            "price": 12.0
+          }
+        ],
+        "image": "pic/203.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Guacamole Greens",
+        "description": "Roasted Chicken, Avocado, Tomatoes, Red Onions, Shredded Cabbage",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 8.0
+          },
+          {
+            "size": "Large",
+            "price": 12.0
+          }
+        ],
+        "image": "pic/204.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Easy Pasta Salad",
+        "description": "Goat cheese, roasted almonds, warm wild rice, shredded kale, vinaigrette",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 11.0
+          },
+          {
+            "size": "Large",
+            "price": 16.0
+          }
+        ],
+        "image": "pic/B_1.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Easy Pasta Salad",
+        "description": "Goat cheese, roasted almonds, warm wild rice, shredded kale, vinaigrette",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 11.0
+          },
+          {
+            "size": "Large",
+            "price": 16.0
+          }
+        ],
+        "image": "pic/B_2.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Easy Pasta Salad",
+        "description": "Goat cheese, roasted almonds, warm wild rice, shredded kale, vinaigrette",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 11.0
+          },
+          {
+            "size": "Large",
+            "price": 16.0
+          }
+        ],
+        "image": "pic/B_3.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Easy Pasta Salad",
+        "description": "Goat cheese, roasted almonds, warm wild rice, shredded kale, vinaigrette",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 11.0
+          },
+          {
+            "size": "Large",
+            "price": 16.0
+          }
+        ],
+        "image": "pic/B_4.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Easy Pasta Salad",
+        "description": "Goat cheese, roasted almonds, warm wild rice, shredded kale, vinaigrette",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 11.0
+          },
+          {
+            "size": "Large",
+            "price": 16.0
+          }
+        ],
+        "image": "pic/B_5.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Easy Pasta Salad",
+        "description": "Goat cheese, roasted almonds, warm wild rice, shredded kale, vinaigrette",
+        "sizes": [
+          {
+            "size": "Small",
+            "price": 11.0
+          },
+          {
+            "size": "Large",
+            "price": 16.0
+          }
+        ],
+        "image": "pic/204.jpg"
+      }
+    ]
+  }
+  

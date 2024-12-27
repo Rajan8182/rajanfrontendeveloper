@@ -2,7 +2,7 @@ import { ADD_TO_CART , REMOVE_TO_CART , EMPTY_CART } from "./Constant";
 
 
 const initialState = {
-    Count:10
+    Count:0
 }
 
 
@@ -18,7 +18,7 @@ const Reducer = (state = initialState , action) => {
         }
         case EMPTY_CART : return{
             ...state,
-            Count:10
+            Count:0
         }
         default : return state
     }

@@ -1,11 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
-import img_4 from "../pic/Blog_1.jpg";
+import img_4 from "../pic/202.jpg";
 import img_5 from "../pic/Blog_11.jpg";
 import img_6 from "../pic/Blog_6.jpg";
 import img_7 from "../pic/Blog_7.jpg";
-import img_8 from "../pic/Blog_9.jpg";  
-import img_9 from "../pic/Blog_10.jpg";
+import img_8 from "../pic/203.jpg";  
+import img_9 from "../pic/204.jpg";
 
 function ViewHome() {
   const settings = {
@@ -40,12 +40,12 @@ function ViewHome() {
       <div className="slider-container mt-9">
         <Slider {...settings}>
           {/* 1 */}
-          <div className="w-48 h-full px-4">
-            <img src={img_4} className=" rounded-2xl" alt="" />
+          <div className="w-48 h-64 px-4">
+            <img src={img_4} className="rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold">Guacamole Greens</h3>
+              <h3 class="font-bold text-2xl">Guacamole Greens</h3>
               <h4 className="mt-2">
-                Roasted Chicken, Avocado, Tomatoes, Red Onions, Shredded Cabbage
+              Roasted Chicken, Avocado, Tomatoes, Red Onions, Shredded Cabbage
               </h4>
               <div className="flex gap-12 mt-2">
                 <h5 class="font-bold text-green-950">
@@ -63,7 +63,7 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_5} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold">Harvest Bowl</h3>
+              <h3 class="font-bold text-2xl">Harvest Bowl</h3>
               <h4 className="mt-2">
               Roasted chicken, roasted sweet potatoes, apples, goat chees
               </h4>
@@ -83,7 +83,7 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_6} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold">Summer Asian Slaw</h3>
+              <h3 class="font-bold text-2xl">Summer Asian Slaw</h3>
               <h4 className="mt-2">
               Pickled carrots + celery, tomatoes, cilantro, blue cheese, zaatar
               </h4>
@@ -103,7 +103,7 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_7} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold">Shredded Brussels Sprout</h3>
+              <h3 class="font-bold text-2xl">Shredded Brussels Sprout</h3>
               <h4 className="mt-2">
               Raw beets, cucumbers, basil, sunflower seeds, warm wild rice, shredded kale
               </h4>
@@ -123,7 +123,7 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_8} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold">Easy Pasta Salad</h3>
+              <h3 class="font-bold text-2xl">Easy Pasta Salad</h3>
               <h4 className="mt-2">
               Goat cheese, roasted almonds, warm wild rice, shredded kale, vinaigrette
               </h4>
@@ -143,7 +143,7 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_9} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold">Creamy Vegan Salad</h3>
+              <h3 class="font-bold text-2xl">Creamy Vegan Salad</h3>
               <h4 className="mt-2">
               Roasted sweet potatoes, apples, cheese, kale, balsamic vinaigrette
               </h4>
