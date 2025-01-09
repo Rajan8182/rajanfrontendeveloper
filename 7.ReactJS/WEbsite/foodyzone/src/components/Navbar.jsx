@@ -1,11 +1,27 @@
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import logo from "../pic/logo.png";
 import { Outlet } from "react-router-dom";
-import { FaCartArrowDown } from "react-icons/fa";
+import { LiaOpencart } from "react-icons/lia";
 import { FaHeart } from "react-icons/fa";
+import { FaRegHeart } from "react-icons/fa";
 
 const Navbar = () => {
+  const Datalength = useSelector((state) => state.cart.cart.length);
+
+  console.log(Datalength);
+
+  const wishlist = useSelector((state) => state.wishlist.wishlist.length);
+  const wishlistData = useSelector((state) => state.wishlist.wishlist);
+
+  console.log(wishlist);
+
+  console.log("wishlistData" , wishlistData);
+  
+  
+  
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -14,7 +30,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="navbar z-10">
+      <div className="navbar z-10 fixed top-0 w-full">
         <div className="bg-slate-200 bg-blur-sm flex justify-between items-center p-4 lg:p-6">
           <div>
             <img src={logo} alt="Logo" className="h-16 md:h-20" />
@@ -71,18 +87,22 @@ const Navbar = () => {
                     Shop
                   </Link>
                 </li>
-                <li>
-                  <Link to="/Cart" className="hover:text-green-950">
-                    <FaCartArrowDown />
+                <li className="relative">
+                  <Link to="/cart">
+                    <LiaOpencart className="text-2xl " />
                   </Link>
+                  <span className="w-4 h-4 text-center rounded-full absolute -top-4 -right-2 bg-white text-black flex justify-center items-center text-xs">
+                    {Datalength}
+                  </span>
                 </li>
                 <li>
                   <Link to="/Wishlist" className="hover:text-green-950">
-                    <FaHeart />
+                    {
+                      wishlist == 0 ? <FaRegHeart/> : <FaHeart style={{color:"#fa0000"}} />
+                    }
                   </Link>
                 </li>
               </ul>
-
               <div className="mt-4 lg:mt-0 flex justify-center lg:block">
                 <Link to="/ReservationForm">
                   <button className="bg-green-950 text-yellow-500 font-bold rounded-full py-3 px-6 hover:bg-yellow-500 hover:text-green-950 transition duration-300 ease-in-out">

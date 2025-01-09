@@ -26,9 +26,9 @@ const Navbar = () => {
                             <li><NavLink to="/contact">ContactUs</NavLink></li>
                             <li><NavLink to='/shop'>Shop</NavLink></li>
                             <li className='relative'>
-                                <NavLink to="/cart">
+                                <Link to="/cart">
                                 <LiaOpencart className='text-2xl ' />
-                                </NavLink>
+                                </Link>
                                 <span className='w-4 h-4 text-center rounded-full absolute -top-4 -right-2 bg-white text-black flex justify-center items-center text-xs'>
                                     <p>{Datalength}</p>
                                 </span>

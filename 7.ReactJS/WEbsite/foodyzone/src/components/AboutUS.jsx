@@ -1,5 +1,5 @@
 import React from "react";
-import img_22 from "../pic/A_6.jpg";
+import img_22 from "../pic/A_6.jpg";  
 import OurStory from "../page/OurStory";
 import FoodAbout1 from "../page/FoodAbout1.jsx";
 import SignUp from "../page/SignUp";

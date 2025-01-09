@@ -43,18 +43,18 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_4} className="rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold text-2xl">Guacamole Greens</h3>
+              <h3 className="font-bold text-2xl">Guacamole Greens</h3>
               <h4 className="mt-2">
               Roasted Chicken, Avocado, Tomatoes, Red Onions, Shredded Cabbage
               </h4>
               <div className="flex gap-12 mt-2">
-                <h5 class="font-bold text-green-950">
-                  <span class="">Small</span>
-                  <span class="">$8.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Small</span>
+                  <span className="">$8.0</span>
                 </h5>
-                <h5 class="font-bold text-green-950">
-                  <span class="">Large</span>
-                  <span class="">$12.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Large</span>
+                  <span className="">$12.0</span>
                 </h5>
               </div>
             </div>
@@ -63,18 +63,18 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_5} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold text-2xl">Harvest Bowl</h3>
+              <h3 className="font-bold text-2xl">Harvest Bowl</h3>
               <h4 className="mt-2">
               Roasted chicken, roasted sweet potatoes, apples, goat chees
               </h4>
               <div className="flex gap-12 mt-2">
-                <h5 class="font-bold text-green-950">
-                  <span class="">Small</span>
-                  <span class="">$7.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Small</span>
+                  <span className="">$7.0</span>
                 </h5>
-                <h5 class="font-bold text-green-950">
-                  <span class="">Large</span>
-                  <span class="">$10.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Large</span>
+                  <span className="">$10.0</span>
                 </h5>
               </div>
             </div>
@@ -83,18 +83,18 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_6} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold text-2xl">Summer Asian Slaw</h3>
+              <h3 className="font-bold text-2xl">Summer Asian Slaw</h3>
               <h4 className="mt-2">
               Pickled carrots + celery, tomatoes, cilantro, blue cheese, zaatar
               </h4>
               <div className="flex gap-12 mt-2">
-                <h5 class="font-bold text-green-950">
-                  <span class="">Small</span>
-                  <span class="">$10.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Small</span>
+                  <span className="">$10.0</span>
                 </h5>
-                <h5 class="font-bold text-green-950">
-                  <span class="">Large</span>
-                  <span class="">$14.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Large</span>
+                  <span className="">$14.0</span>
                 </h5>
               </div>
             </div>
@@ -103,18 +103,18 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_7} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold text-2xl">Shredded Brussels Sprout</h3>
+              <h3 className="font-bold text-2xl">Shredded Brussels Sprout</h3>
               <h4 className="mt-2">
               Raw beets, cucumbers, basil, sunflower seeds, warm wild rice, shredded kale
               </h4>
               <div className="flex gap-12 mt-2">
-                <h5 class="font-bold text-green-950">
-                  <span class="">Small</span>
-                  <span class="">$9.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Small</span>
+                  <span className="">$9.0</span>
                 </h5>
-                <h5 class="font-bold text-green-950">
-                  <span class="">Large</span>
-                  <span class="">$13.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Large</span>
+                  <span className="">$13.0</span>
                 </h5>
               </div>
             </div>
@@ -123,18 +123,18 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_8} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold text-2xl">Easy Pasta Salad</h3>
+              <h3 className="font-bold text-2xl">Easy Pasta Salad</h3>
               <h4 className="mt-2">
               Goat cheese, roasted almonds, warm wild rice, shredded kale, vinaigrette
               </h4>
               <div className="flex gap-12 mt-2">
-                <h5 class="font-bold text-green-950">
-                  <span class="">Small</span>
-                  <span class="">$11.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Small</span>
+                  <span className="">$11.0</span>
                 </h5>
-                <h5 class="font-bold text-green-950">
-                  <span class="">Large</span>
-                  <span class="">$16.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Large</span>
+                  <span className="">$16.0</span>
                 </h5>
               </div>
             </div>
@@ -143,18 +143,18 @@ function ViewHome() {
           <div className="w-48 h-64 px-4">
             <img src={img_9} className=" rounded-2xl" alt="" />
             <div className="mt-4">
-              <h3 class="font-bold text-2xl">Creamy Vegan Salad</h3>
+              <h3 className="font-bold text-2xl">Creamy Vegan Salad</h3>
               <h4 className="mt-2">
               Roasted sweet potatoes, apples, cheese, kale, balsamic vinaigrette
               </h4>
               <div className="flex gap-12 mt-2">
-                <h5 class="font-bold text-green-950">
-                  <span class="">Small</span>
-                  <span class="">$9.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Small</span>
+                  <span className="">$9.0</span>
                 </h5>
-                <h5 class="font-bold text-green-950">
-                  <span class="">Large</span>
-                  <span class="">$13.0</span>
+                <h5 className="font-bold text-green-950">
+                  <span className="">Large</span>
+                  <span className="">$13.0</span>
                 </h5>
               </div>
             </div>
