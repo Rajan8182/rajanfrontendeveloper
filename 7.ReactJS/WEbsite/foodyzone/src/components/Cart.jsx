@@ -17,8 +17,9 @@ const Cart = () => {
 
   return (
     <div className="mt-40">
-      {cart.length === 0 ? (
-        <div>Your cart is empty.</div>
+      <h1 className="text-3xl font-bold text-center mb-6">My Cart</h1>
+      {cart.length == 0 ? (
+        <div className="flex justify-center items-center">Your cart is empty.</div>
       ) : (
         <div className="m-16">
           <button

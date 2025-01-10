@@ -7,18 +7,25 @@ import { FaHeart } from "react-icons/fa";
 
 const Shop = (props) => {
   const products = useSelector((state) => state.product);
-
+  
   console.log("Shopproducts", products);
 
-  const dispatch = useDispatch();
+  const wishlist = useSelector((state) => state.wishlist.wishlist)
+
+  console.log('wishlist' , wishlist);
+
+  const Heart = (id) => wishlist.some((item) => item.id === id)
+
+  const dispatch = useDispatch(); 
 
   useEffect(() => {
     dispatch(productData());
   }, [dispatch]);
 
   return (
-    <div className="flex flex-wrap m-36">
+    <div className="flex flex-wrap justify-evenly">
       {products.map((product) => {
+        // console.log('heart' , products.some((item) => item.id !== wishlist.id));
         return (
           <div className="w-96 p-4">
             <img src={product.image} className="rounded-2xl" alt="" />
@@ -39,14 +46,26 @@ const Shop = (props) => {
                 <button onClick={() => dispatch(add_to_cart(product))}>
                   Add to Cart
                 </button>
+
+                {/* <button
+                  onClick={() => dispatch(Wishlist_Add(product))}
+                  className="text-red-500 hover:text-red-700"
+                >
+                  {Wishlistid (product.id) == 0 ? (
+                    <FaHeart />
+                  ) : (
+                    <FaRegHeart className="text-2xl" />
+                  )}
+                </button> */}
+
                 <button
                   onClick={() => dispatch(Wishlist_Add(product))}
                   className="text-red-500 hover:text-red-700"
                 >
-                  {Wishlist_Add == 0 ? (
-                   <FaRegHeart className="text-2xl" />
+                  { Heart(product.id) ? (
+                    <FaHeart />
                   ) : (
-                     <FaHeart />
+                    <FaRegHeart className="text-2xl" />
                   )}
                 </button>
               </div>

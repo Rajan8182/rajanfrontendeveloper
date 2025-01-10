@@ -49,10 +49,10 @@ export const productData = () => {
     }
 }
 
-// export const productData = () => {
-//     return{
-//         type:PRODUCT_LIST,
-//         data:'apple'
-//     }
-// }
+export const productList = () => {
+    return{
+        type:PRODUCT_LIST,
+        data:'apple'
+    }
+}
 
