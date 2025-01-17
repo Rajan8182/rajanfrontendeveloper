@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Navbar from "./Navbar";
 import Error from "./Error";
 import Shop from "./Shop";
+import SignUp from "./Signup";
 import Cart from "./Cart";
 import Wishlist from "./Wishlist";
 import Login from "./Login";
@@ -25,15 +26,11 @@ const Layout = () => {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/error" element={<Error />}></Route>
           <Route path="/ReservationForm" element={<ReservationForm />}></Route>
-          <Route path="/Shop" element={<Shop />}>
-            {" "}
-          </Route>
-          <Route path="/Cart" element={<Cart />}>
-            {" "}
-          </Route>
-          <Route path="/Wishlist" element={<Wishlist />}>
-            {" "}
-          </Route>
+          <Route path="/Shop" element={<Shop />}>{" "}</Route>
+          <Route path="/Cart" element={<Cart />}>{" "}</Route>
+          <Route path="/Wishlist" element={<Wishlist />}>{" "}</Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/signup" element={<SignUp />}></Route> 
         </Routes>
       </BrowserRouter>
     </div>

@@ -97,6 +97,12 @@ const Navbar = () => {
 
                   </Link>
                 </li>
+                
+                <li>
+                  <Link to="/Signup" className="hover:text-green-950">
+                  Sign Up
+                  </Link>
+                </li>
               </ul>
               <div className="mt-4 lg:mt-0 flex justify-center lg:block">
                 <Link to="/ReservationForm">
