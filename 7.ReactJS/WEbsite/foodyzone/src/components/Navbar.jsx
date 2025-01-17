@@ -6,21 +6,14 @@ import { Outlet } from "react-router-dom";
 import { LiaOpencart } from "react-icons/lia";
 import { FaHeart } from "react-icons/fa";
 import { FaRegHeart } from "react-icons/fa";
+import { MdLogin } from "react-icons/md";
+
 
 const Navbar = () => {
   const Datalength = useSelector((state) => state.cart.cart.length);
 
-  console.log(Datalength);
-
   const wishlist = useSelector((state) => state.wishlist.wishlist.length);
   const wishlistData = useSelector((state) => state.wishlist.wishlist);
-
-  console.log(wishlist);
-
-  console.log("wishlistData" , wishlistData);
-  
-  
-  
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -56,9 +49,7 @@ const Navbar = () => {
           </div>
 
           <div
-            className={`lg:flex ${
-              isOpen ? "block" : "hidden"
-            } w-full  lg:w-auto`}
+            className={`lg:flex ${isOpen ? "block" : "hidden"} w-full lg:w-auto`}
           >
             <nav className="flex flex-col lg:flex-row lg:items-center lg:gap-8">
               <ul className="flex flex-col lg:flex-row font-bold text-2xl gap-6 items-center lg:gap-8 mt-4 lg:mt-0">
@@ -97,16 +88,20 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link to="/Wishlist" className="hover:text-green-950">
-                    {
-                      wishlist == 0 ? <FaRegHeart/> : <FaHeart style={{color:"#fa0000"}} />
-                    }
+                    {wishlist === 0 ? <FaRegHeart /> : <FaHeart style={{ color: "#fa0000" }} />}
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/login" className="hover:text-green-950">
+                  <MdLogin />
+
                   </Link>
                 </li>
               </ul>
               <div className="mt-4 lg:mt-0 flex justify-center lg:block">
                 <Link to="/ReservationForm">
                   <button className="bg-green-950 text-yellow-500 font-bold rounded-full py-3 px-6 hover:bg-yellow-500 hover:text-green-950 transition duration-300 ease-in-out">
-                    Mack a Reservation
+                    Make a Reservation
                   </button>
                 </Link>
               </div>

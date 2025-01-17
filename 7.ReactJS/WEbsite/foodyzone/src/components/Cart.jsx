@@ -2,14 +2,20 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { remove_to_cart, Wishlist_Add, empty_cart } from "../Redux/Action";
 import { FaRegHeart } from "react-icons/fa6";
+import { FaHeart } from "react-icons/fa";
 
 const Cart = () => {
   const dispatch = useDispatch();
   const cart = useSelector((state) => state.cart.cart);
+  const wishlist = useSelector((state) => state.wishlist.wishlist);
+
+  console.log("wishlist", wishlist);
 
   if (!Array.isArray(cart)) {
     return <div>Loading or Error: Cart data is not available</div>;
   }
+
+  const Heart = (id) => wishlist.some((item) => item.id === id);
 
   const EmptyCart = () => {
     dispatch(empty_cart());
@@ -19,7 +25,9 @@ const Cart = () => {
     <div className="mt-40">
       <h1 className="text-3xl font-bold text-center mb-6">My Cart</h1>
       {cart.length == 0 ? (
-        <div className="flex justify-center items-center">Your cart is empty.</div>
+        <div className="flex justify-center items-center">
+          Your cart is empty.
+        </div>
       ) : (
         <div className="m-16">
           <button
@@ -126,18 +134,22 @@ const Cart = () => {
                   </td>
                   <td className="border border-gray-300 px-4 py-2">
                     <div className="flex justify-between items-center">
-                    <button
-                      className="bg-red-500 text-white px-3 py-1 rounded-md mr-2"
-                      onClick={() => dispatch(remove_to_cart(product.id))}
-                    >
-                      Remove
-                    </button>
-                    <button
-                      onClick={() => dispatch(Wishlist_Add(product))}
-                      className="text-red-500  hover:text-red-700"
-                    >
-                      <FaRegHeart className="text-2xl" />
-                    </button>
+                      <button
+                        className="bg-red-500 text-white px-3 py-1 rounded-md mr-2"
+                        onClick={() => dispatch(remove_to_cart(product.id))}
+                      >
+                        Remove
+                      </button>
+                      <button
+                        onClick={() => dispatch(Wishlist_Add(product))}
+                        className="text-red-500 hover:text-red-700"
+                      >
+                        {Heart(product.id) ? (
+                          <FaHeart className="text-2xl" />
+                        ) : (
+                          <FaRegHeart className="text-2xl" />
+                        )}
+                      </button>
                     </div>
                   </td>
                 </tr>
