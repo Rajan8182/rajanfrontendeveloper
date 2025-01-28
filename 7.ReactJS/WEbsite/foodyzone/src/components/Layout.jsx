@@ -30,7 +30,7 @@ const Layout = () => {
           <Route path="/Cart" element={<Cart />}>{" "}</Route>
           <Route path="/Wishlist" element={<Wishlist />}>{" "}</Route>
           <Route path="/login" element={<Login />}></Route>
-          <Route path="/signup" element={<SignUp />}></Route> 
+          <Route path="/signup" element={<SignUp />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
