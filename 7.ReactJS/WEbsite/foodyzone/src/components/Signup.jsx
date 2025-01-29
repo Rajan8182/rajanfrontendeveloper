@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const SignUp = () => {
   const [formData, setFormData] = useState({
@@ -6,6 +7,8 @@ const SignUp = () => {
     email: '',
     password: '',
   });
+
+  const navigate = useNavigate()
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -20,10 +23,11 @@ const SignUp = () => {
     localStorage.setItem('userData', JSON.stringify(formData));
     alert('Signup Successful! Data saved to LocalStorage.');
     setFormData({ name: '', email: '', password: '' });
+    navigate('/Login')
   };
 
   return (
-    <div className="flex justify-center items-center mt-28 min-h-screen bg-gray-100">
+    <div className="flex justify-center items-center mt-32 min-h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
         <h1 className="text-2xl font-bold text-center mb-6 text-gray-700">Sign Up</h1>
         <form className="space-y-4" onSubmit={handleSubmit}>

@@ -10,6 +10,7 @@ import SignUp from "./Signup";
 import Cart from "./Cart";
 import Wishlist from "./Wishlist";
 import Login from "./Login";
+import Logout from "./Logout";
 import ReservationForm from "./ReservationForm";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -31,6 +32,7 @@ const Layout = () => {
           <Route path="/Wishlist" element={<Wishlist />}>{" "}</Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/signup" element={<SignUp />}></Route>
+          <Route path="/logout" element={<Logout />} ></Route>
         </Routes>
       </BrowserRouter>
     </div>

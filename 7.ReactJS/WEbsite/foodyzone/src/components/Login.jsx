@@ -19,19 +19,21 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-
+  
     const isValidUser = validUsers.some(
       (user) => user.username === username && user.password === password
     );
-
+  
     if (isValidUser) {
+      localStorage.setItem("loggedInUser", username); 
       setSuccessMessage("Login successful! Welcome back.");
       setTimeout(() => navigate("/home"), 1500);
     } else if (username && password) {
       const newUser = { username, password };
       setValidUsers((prevUsers) => [...prevUsers, newUser]);
+      localStorage.setItem("loggedInUser", username); 
       setSuccessMessage("New user added and logged in successfully!");
-      setTimeout(() => navigate("/home"), 1500); 
+      setTimeout(() => navigate("/home"), 1500);
     } else {
       setError("Invalid username or password.");
     }
