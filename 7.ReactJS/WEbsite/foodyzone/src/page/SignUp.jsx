@@ -4,7 +4,6 @@ const NewsletterSignUp = () => {
   return (
     <div className=" p-10">
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-center justify-between">
-        {/* Text Section */}
         <div className="text-center lg:text-left">
           <h2 className="text-3xl font-bold text-gray-900">
             Keep up to date with us
@@ -14,7 +13,6 @@ const NewsletterSignUp = () => {
           </p>
         </div>
 
-        {/* Form Section */}
         <form className="w-full lg:w-auto flex items-center gap-4">
           <input
             type="email"

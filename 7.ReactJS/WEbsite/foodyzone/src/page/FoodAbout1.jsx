@@ -1,6 +1,3 @@
-
-
-
 import React from "react";
 import img_23 from "../pic/f-1.jpg";
 import img_24 from "../pic/f-2.jpg";
