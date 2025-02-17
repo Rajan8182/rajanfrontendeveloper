@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+    .marqueeDiv{
+        animation: marquees 10s linear infinite;
+    }
+
+    @keyframes marquees {
+        0% {
+            transform: translateY(0%);
+        }
+        100%{
+            transform: translateY(-100%);
+        }
+        
+    }
+
+    .marqueeContainer:hover > div{
+        animation-play-state: paused;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+  font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+
+/* 
+import React from "react";
+import { FaHome, FaUser, FaLayerGroup, FaPenNib, FaBlog, FaCommentDots, FaMoon } from "react-icons/fa";
+
+const Navbar = () => {
+  return (
+    <nav className="sticky flex items-center justify-between bg-white shadow-md px-9 py-4 rounded-xl">
+      {/* Left Side 
+      <div className="flex items-center space-x-2">
+        <div className="text-2xl font-bold">
+          <span className="text-black">Bento</span>
+          <span className="text-blue-600">Folio</span>
+        </div>
+      </div>
+
+      {/* Center Menu 
+      <div className="flex items-center space-x-6">
+        <button className="flex items-center space-x-2 text-gray-500 hover:text-black">
+          <FaHome className="text-xl" /> <span>Home</span>
+        </button>
+        <button className="flex items-center space-x-2 text-gray-500 hover:text-black">
+          <FaUser className="text-xl" /> <span>About</span>
+        </button>
+        <button className="flex items-center space-x-2 text-gray-500 hover:text-black">
+          <FaLayerGroup className="text-xl" /> <span>Services</span>
+        </button>
+        <button className="flex items-center space-x-2 text-gray-500 hover:text-black">
+          <FaPenNib className="text-xl" /> <span>Works</span>
+        </button>
+        <button className="flex items-center space-x-2 text-gray-500 hover:text-black">
+          <FaBlog className="text-xl" /> <span>Blog</span>
+        </button>
+        <button className="flex items-center space-x-2 text-gray-500 hover:text-black">
+          <FaCommentDots className="text-xl" /> <span>Contact</span>
+        </button>
+      </div>
+
+      {/* Right Side 
+      <div className="flex items-center space-x-4">
+        <FaMoon className="text-2xl text-gray-600 cursor-pointer" />
+        <button className="bg-black text-white px-6 py-2 rounded-lg hover:bg-blue-800 flex items-center space-x-2">
+          <span>Let's Talk</span> <span>↗</span>
+        </button>
+      </div>
+    </nav>
+  );
+};
+
+export default Navbar; */
+
+  
+  
