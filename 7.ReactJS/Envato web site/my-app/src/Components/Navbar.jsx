@@ -23,7 +23,7 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <nav className="sticky top-5 bg-white dark:bg-gray-900 dark:text-white shadow-lg rounded-2xl p-3 flex justify-between items-center mx-4 md:mx-16 py-5 font-bricolage">
+    <nav className="sticky z-50 top-5 bg-white dark:bg-gray-900 dark:text-white shadow-md rounded-2xl p-3 flex justify-between items-center py-5 font-bricolage container mx-auto">
       <div className="text-4xl font-bold flex items-center">
         <Link to="/" className="text-black dark:text-white">
           Bento

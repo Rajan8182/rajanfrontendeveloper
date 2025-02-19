@@ -31,10 +31,10 @@ const projects = [
 
 const Works = () => {
   return (
-    <div className="Home ml-10 p-16 font-['Bricolage Grotesque', sans-serif]">
-      <div className="flex gap-3">
+    <div className="container mx-auto py-10 font-['Bricolage Grotesque', sans-serif]">
+      <div className="flex  gap-3">
         <CrisRayaan />
-        <div className="max-w-4xl  p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
+        <div className="w-[870px] p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
           <section className=" mx-auto">
             <h2 className="font-bold text-gray-800 dark:text-white text-4xl">
               Check Out My Latest{" "}

@@ -32,7 +32,7 @@ const Faqs = () => {
   };
 
   return (
-    <div className="mt-10 max-w-2xl mx-auto  bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 min-h-screen">
+    <div className="mt-10 max-w-2xl mx-auto  bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100   ">
       <h1 className="text-4xl font-bold text-center mb-6">Frequently Asked Questions</h1>
 
       <div className="space-y-4 w-[700px]">

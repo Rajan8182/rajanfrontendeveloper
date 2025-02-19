@@ -22,11 +22,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="px-6 md:px-16 py-10 font-['Bricolage Grotesque', sans-serif]">
-      <div className="flex flex-col md:flex-row gap-8">
+    <div className="container mx-auto py-10 font-['Bricolage Grotesque', sans-serif]">
+      <div className="flex flex-col md:flex-row gap-3">
         <CrisRayaan />
 
-        <div className="w-full max-w-4xl p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
+        <div className="w-[870px] p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
           <h2 className="text-3xl md:text-4xl font-bold dark:text-white text-gray-800">
             Let's 👋 <span className="text-blue-600">Work</span> Together
           </h2>

@@ -9,10 +9,10 @@ import Footer from "./Footer";
 
 const Services = () => {
   return (
-    <div className="Home ml-10 p-16 font-['Bricolage Grotesque', sans-serif]">
+    <div className="container mx-auto py-10 font-['Bricolage Grotesque', sans-serif]">
       <div className="flex  gap-3">
         <CrisRayaan />
-        <div className="max-w-4xl  p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
+        <div className="w-[870px] p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
           <h1 className="text-5xl font-bold">
             Services I <span className="text-blue-500">Offered</span>
           </h1>
@@ -43,7 +43,7 @@ const Services = () => {
                   <img
                     src={require("../Pic/ui-ux.svg").default}
                     alt="Zeplin"
-                    className="w-40 h-20 bg-white shadow-md  rounded-lg  inline"
+                    className="w-40 h-20 bg-white rounded-lg  inline"
                   />
                   <h3 className="mt-9"> Mobile App </h3>
                 </div>
@@ -53,7 +53,7 @@ const Services = () => {
                   <img
                     src={require("../Pic/ui-ux.svg").default}
                     alt="Zeplin"
-                    className="w-40 h-20 bg-white shadow-md  rounded-lg  inline"
+                    className="w-40 h-20 bg-white rounded-lg  inline"
                   />
                   <h3 className="mt-9"> Product Design </h3>
                 </div>
@@ -63,7 +63,7 @@ const Services = () => {
                   <img
                     src={require("../Pic/ui-ux.svg").default}
                     alt="Zeplin"
-                    className="w-40 h-20 bg-white shadow-md  rounded-lg  inline"
+                    className="w-40 h-20 bg-white rounded-lg  inline"
                   />
                   <h3 className="mt-9"> Branding </h3>
                 </div>
@@ -75,7 +75,7 @@ const Services = () => {
                   <img
                     src={require("../Pic/camera.svg").default}
                     alt="Zeplin"
-                    className="w-40 h-20 bg-white shadow-md  rounded-lg  inline"
+                    className="w-40 h-20 bg-white rounded-lg  inline"
                   />
                   <h3 className="mt-9"> Photography </h3>
                 </div>
@@ -86,7 +86,7 @@ const Services = () => {
                   <img
                     src={require("../Pic/youtube.svg").default}
                     alt="Zeplin"
-                    className="w-40 h-20 bg-white shadow-md  rounded-lg  inline"
+                    className="w-40 h-20 bg-white rounded-lg  inline"
                   />
                   <h3 className="mt-9"> Motion Design </h3>
                 </div>
@@ -97,7 +97,7 @@ const Services = () => {
                   <img
                     src={require("../Pic/web-development.svg").default}
                     alt="Zeplin"
-                    className="w-40 h-20 bg-white shadow-md  rounded-lg  inline"
+                    className="w-40 h-20 bg-white rounded-lg  inline"
                   />
                   <h3 className="mt-9"> Web Development </h3>
                 </div>
@@ -108,7 +108,7 @@ const Services = () => {
                   <img
                     src={require("../Pic/view.svg").default}
                     alt="Zeplin"
-                    className="w-40 h-20 bg-white shadow-md  rounded-lg  inline"
+                    className="w-40 h-20 bg-white rounded-lg  inline"
                   />
                   <h3 className="mt-9"> Visualization </h3>
                 </div>
@@ -127,7 +127,7 @@ const Services = () => {
             <Faqs/>
             <marquee
             class="marq"
-            className="border  flex justify-between  dark:bg-gray-800 text-black dark:text-white bg-gray-100 p-4 font-bold text-4xl hover:bg-white rounded-lg mt-6"
+            className="border  flex justify-between  dark:bg-gray-800 text-black dark:text-white bg-gray-100 p-4 font-bold text-4xl hover:bg-white rounded-lg"
             direction="left"
             loop=""
           >

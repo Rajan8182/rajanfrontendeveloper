@@ -8,10 +8,9 @@ const WorksExperience = () => {
   return (
     <div>
       <div className="flex  flex-col">
-        <div className="bg-white shadow-md p-6 dark:bg-gray-800 text-black dark:text-white rounded-2xl w-[420px]  mt-6">
-          <h2 className="text-xl font-bold mb-4">Work Experience</h2>
+        <div className="bg-white shadow-md p-6 dark:bg-gray-800 text-black dark:text-white rounded-2xl w-[420px]">
+          <h2 className="font-bold mb-10 text-3xl text-center">Work Experience</h2>
           <div className="flex flex-col items-center space-y-1 h-[217px] text-nowrap overflow-y-hidden marqueeContainer">
-
             <div className="marqueeDiv">
               <div className="flex items-start space-x-4">
                 <span className="text-gray-500 w-20">2021-2024</span>
@@ -118,8 +117,8 @@ const WorksExperience = () => {
           </div>
         </div>
 
-        <div className="shadow-md bg-white dark:bg-gray-800 text-black dark:text-white p-6 rounded-2xl w-[420px] h-auto mt-14">
-          <h2 className="text-2xl font-semibold mb-4">My Expert Area</h2>
+        <div className="bg-white shadow-md p-6 dark:bg-gray-800 text-black dark:text-white rounded-2xl w-[420px] h-[340px] mt-3">
+        <h2 className="font-bold mb-10 text-3xl text-center">My Expert Area</h2>
           <div className="grid grid-cols-2  gap-4">
             <div className=" flex mt-8 gap-24">
               {/* 1 */}

@@ -8,10 +8,11 @@ import Footer from "./Footer";
 
 const About = () => {
   return (
-    <div className="Home ml-10 p-16 font-['Bricolage Grotesque', sans-serif]">
+    // <div className="container mx-auto py-10">
+    <div className="container mx-auto py-10 font-['Bricolage Grotesque', sans-serif]">
       <div className="flex  gap-3">
         <CrisRayaan />
-        <div className="max-w-4xl  p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
+        <div className="w-[870px]  p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold font-bricolage">
             Hi, This Is <span className="text-blue-500">Cris Rayaan</span> 👋
           </h1>
