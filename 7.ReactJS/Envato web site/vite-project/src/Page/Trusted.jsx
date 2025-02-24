@@ -1,6 +1,7 @@
-import React from 'react'
+import React from "react";
 import Slider from "react-slick";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Trusted = () => {
   const settings = {
@@ -18,77 +19,67 @@ const Trusted = () => {
           slidesToShow: 1,
         },
       },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
     ],
   };
 
-      const testimonials = [
-        {
-          id: 1,
-          name: "Oliver Clain",
-          position: "Product Designer",
-          review:
-            "We've been using BentoFolio for over a year now, and I must say, it's been a game-changer for us. The user interface is intuitive and the feature",
-          rating: 5,
-          website: "Framer.com",
-        },
-        {
-          id: 2,
-          name: "Oliver Clain",
-          position: "Product Designer",
-          review:
-            "We've been using BentoFolio for over a year now, and I must say, it's been a game-changer for us. The user interface is intuitive and the feature",
-          rating: 5,
-          website: "Framer.com",
-        },
-      ];
-
+  const testimonials = [
+    {
+      id: 1,
+      name: "Oliver Clain",
+      position: "Product Designer",
+      review:
+        "We've been using BentoFolio for over a year now, and I must say, it's been a game-changer for us. The user interface is intuitive and the feature set is amazing.",
+      rating: 5,
+      website: "Framer.com",
+    },
+    {
+      id: 2,
+      name: "Sophia Lee",
+      position: "UX Researcher",
+      review:
+        "The customer support is fantastic, and the tools available have greatly improved our workflow. Highly recommended!",
+      rating: 5,
+      website: "Behance.net",
+    },
+  ];
 
   return (
-    <div>
-      <p className="text-center mt-6 font-bold">Trusted By 1200+ Clients</p>
-        <div className="slider-container mt-6 mx-9">
-          <Slider {...settings} className="space-x-6">
-            {testimonials.map((testimonial) => (
-              <div
-                key={testimonial.id}
-                className=" bg-white dark:bg-gray-900 text-black dark:text-white p-6 rounded-lg space-x-3 mx-4"
-              >
-                <div className="flex items-center justify-between">
-                  <div className="flex">
-                    {Array(testimonial.rating)
-                      .fill()
-                      .map((_, i) => (
-                        <span key={i} className="text-yellow-500 text-xl">
-                          ⭐
-                        </span>
-                      ))}
-                  </div>
-                  <a
-                    href={`https://${testimonial.website}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500"
-                  >
-                    {testimonial.website} ↗
-                  </a>
+    <div className="w-full max-w-5xl mx-auto p-6">
+      <p className="text-center mt-6 font-bold text-xl">Trusted By 1200+ Clients</p>
+      <div className="slider-container mt-6">
+        <Slider {...settings} className="space-x-6">
+          {testimonials.map((testimonial) => (
+            <div
+              key={testimonial.id}
+              className="bg-white dark:bg-gray-900 text-black dark:text-white p-6 rounded-lg mx-4 shadow-lg flex flex-col justify-between min-h-[250px]"
+            >
+              <div className="flex items-center justify-between">
+                <div className="flex">
+                  {Array(testimonial.rating)
+                    .fill()
+                    .map((_, i) => (
+                      <span key={i} className="text-yellow-500 text-xl">⭐</span>
+                    ))}
                 </div>
-                <p className="mt-4 text-gray-700">"{testimonial.review}"</p>
-                <p className="mt-2 font-bold">
-                  {testimonial.name} -{" "}
-                  <span className="text-gray-500">{testimonial.position}</span>
-                </p>
+                <a
+                  href={`https://${testimonial.website}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500"
+                >
+                  {testimonial.website} ↗
+                </a>
               </div>
-            ))}
-          </Slider>
-        </div>
+              <p className="mt-4 text-gray-700 dark:text-gray-300">"{testimonial.review}"</p>
+              <p className="mt-2 font-bold">
+                {testimonial.name} - <span className="text-gray-500">{testimonial.position}</span>
+              </p>
+            </div>
+          ))}
+        </Slider>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Trusted
+export default Trusted;

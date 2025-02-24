@@ -3,6 +3,12 @@ import img2 from "../Pic/adobe.svg";
 import img3 from "../Pic/adobe (1).svg";
 import img4 from "../Pic/google.svg";
 import img5 from "../Pic/meta.svg";
+import img6 from "../Pic/figma.svg";
+import img7 from "../Pic/notion.svg";
+import img8 from "../Pic/mico.svg";
+import img9 from "../Pic/framer.svg";
+import img10 from "../Pic/webflow.svg";
+import img11 from "../Pic/zeplin.svg";
 
 const WorksExperience = () => {
   return (
@@ -125,7 +131,7 @@ const WorksExperience = () => {
               <div className="text-center">
                 <div className="rounded-lg text-center">
                   <img
-                    src={require("../Pic/figma.svg").default}
+                    src={img6}
                     alt="Figma"
                     className="w-8 h-8 inline"
                   />
@@ -137,7 +143,7 @@ const WorksExperience = () => {
               <div className="text-center ">
                 <div className="rounded-lg text-center">
                   <img
-                    src={require("../Pic/notion.svg").default}
+                    src={img7}
                     alt="Notion"
                     className="w-8 h-8 inline"
                   />
@@ -149,7 +155,7 @@ const WorksExperience = () => {
               <div className="text-cente">
                 <div className="rounded-lg text-center">
                   <img
-                    src={require("../Pic/mico.svg").default}
+                    src={img8}
                     alt="Miro"
                     className="w-8 h-8 inline"
                   />
@@ -163,7 +169,7 @@ const WorksExperience = () => {
             <div className="text-center">
               <div className="rounded-lg text-center">
                 <img
-                  src={require("../Pic/framer.svg").default}
+                  src={img9}
                   alt="Framer"
                   className="w-8 h-8 inline"
                 />
@@ -175,7 +181,7 @@ const WorksExperience = () => {
             <div className="text-center">
               <div className="rounded-lg text-center">
                 <img
-                  src={require("../Pic/webflow.svg").default}
+                  src={img10}
                   alt="Webflow"
                   className="w-8 h-8 inline"
                 />
@@ -187,7 +193,7 @@ const WorksExperience = () => {
             <div className="text-center">
               <div className="rounded-lg text-center">
                 <img
-                  src={require("../Pic/zeplin.svg").default}
+                  src={img11}
                   alt="Zeplin"
                   className="w-8 h-8 inline"
                 />

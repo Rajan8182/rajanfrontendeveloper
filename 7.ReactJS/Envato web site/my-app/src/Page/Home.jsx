@@ -9,8 +9,8 @@ import img7 from "../Pic/project-2.png";
 const Home = () => {
   return (
     <div className="container mx-auto py-10">
-      <div className="flex flex-wrap lg:flex-nowrap gap-3 justify-center">
-      <div className="sticky bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg p-6 w-full sm:w-[400px] h-[690px] rounded-2xl flex flex-col items-center">
+      <div className="flex gap-3 justify-center">
+      <div className=" bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg p-6 w-full sm:w-[400px] h-[690px] rounded-2xl flex flex-col items-center">
       <div className="bg-slate-300 w-[320px] rounded-xl">
         <img src={img1} alt="Profile" className="h-[310px] w-[230px] block mx-auto" />
       </div>

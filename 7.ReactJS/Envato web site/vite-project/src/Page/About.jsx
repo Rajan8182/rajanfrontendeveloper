@@ -8,12 +8,11 @@ import Footer from "./Footer";
 
 const About = () => {
   return (
-    // <div className="container mx-auto py-10">
-    <div className="container mx-auto py-10 font-['Bricolage Grotesque', sans-serif]">
-      <div className="flex  gap-3">
+    <div className="container mx-auto py-10 font-bricolage">
+      <div className="flex gap-3">
         <CrisRayaan />
-        <div className="w-[870px]  p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold font-bricolage">
+        <div className="w-[870px] p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">
             Hi, This Is <span className="text-blue-500">Cris Rayaan</span> 👋
           </h1>
           <p className="text-gray-600 dark:text-gray-300 text-lg sm:text-xl mt-2">
@@ -27,7 +26,7 @@ const About = () => {
 
           <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 gap-6 text-center">
             <div>
-              <span className="text-2xl font-bold">40+</span>
+              <span className="text-2xl font-bold">12+</span>
               <p className="text-gray-500 dark:text-gray-400">
                 Years of Experience
               </p>
@@ -49,15 +48,16 @@ const About = () => {
           <AwardsandRecognitions />
           <ArticleandPublications />
 
-          <marquee
-            className="border flex justify-between bg-gray-100 dark:bg-gray-700 p-4 font-bold text-lg sm:text-2xl md:text-4xl hover:bg-white dark:hover:bg-gray-600 rounded-lg mt-6"
-            direction="left"
-          >
-            <ul className="list-disc flex gap-10 sm:gap-20">
-              <li>Let's 👋 Work Together</li>
-              <li>Let's 👋 Work Together</li>
-            </ul>
-          </marquee>
+            <div className="animate-marquee border rounded-xl flex space-x-20 text-lg sm:text-2xl md:text-4xl font-bold">
+            <marquee className="flex justify-between dark:bg-gray-800 text-black dark:text-white bg-gray-100 p-4 font-bold text-4xl hover:bg-white rounded-lg" direction="left">
+              <div>
+                <ul className="list-disc flex gap-20">
+                  <li className="text-gray-600 dark:text-black">Let's 👋 Work Together</li>
+                  <li className="text-gray-600 dark:text-black">Let's 👋 Work Together</li>
+                </ul>
+              </div>
+            </marquee>
+          </div>
         </div>
       </div>
 

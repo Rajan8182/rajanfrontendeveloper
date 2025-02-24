@@ -9,19 +9,12 @@ const ArticleandPublications = () => {
     focusOnSelect: true,
     infinite: true,
     slidesToShow: 2,
-    slidesToScroll: 1,
-    speed: 500,
+    speed: 900,
     autoplay: true,
     autoplaySpeed: 3000,
     responsive: [
       {
         breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         },
@@ -38,17 +31,17 @@ const ArticleandPublications = () => {
   return (
     <div className="container mx-auto px-4 md:px-16 mt-9 bg-white dark:bg-gray-800 text-black dark:text-white">
       <h1 className="text-3xl sm:text-4xl font-bold mb-6">Articles & Publications</h1>
-      <Slider {...settings}>
+      <Slider {...settings} className="flex items-stretch">
         {articles.map((article) => (
-          <div key={article.id} className="p-3">
-            <div className="overflow-hidden rounded-3xl">
+          <div key={article.id} className="p-3 flex flex-col h-full">
+            <div className="overflow-hidden rounded-3xl flex-1">
               <img
                 src={article.img}
                 className="h-[250px] w-full object-cover rounded-3xl transition-transform duration-500 hover:scale-105"
                 alt={article.title}
               />
             </div>
-            <div className="text-left mt-3">
+            <div className="text-left mt-3 flex flex-col justify-between flex-1">
               <h1 className="text-lg sm:text-xl md:text-2xl hover:text-blue-600 font-semibold">{article.title}</h1>
               <div className="mt-3 text-gray-400 dark:text-gray-300 text-sm flex justify-between">
                 <span>{article.time}</span>
