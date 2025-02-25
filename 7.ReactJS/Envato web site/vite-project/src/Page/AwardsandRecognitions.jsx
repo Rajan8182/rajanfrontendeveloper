@@ -13,14 +13,14 @@ const awards = [
 
 const AwardsandRecognitions = () => {
   return (
-    <div className="mt-10 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 min-h-screen p-5">
+    <div className="mt-10 bg-white  text-gray-900  min-h-screen p-5">
       <div className="mt-10">
         <h1 className="text-4xl">Awards and Recognitions</h1>
         <div>
           {awards.map((award, index) => (
             <div
               key={index}
-              className="border flex items-center justify-between bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 p-9 rounded-lg mt-6"
+              className="border flex items-center justify-between bg-white  text-gray-900  p-9 rounded-lg mt-6"
             >
               <img src={award.img} alt={award.title} className="w-8 h-8 rounded-lg" />
               <div>

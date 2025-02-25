@@ -4,13 +4,13 @@ import img1 from "../Pic/1.png";
 
 const CrisRayaan = () => {
   return (
-    <div className="sticky top-28 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg p-6 w-full sm:w-[400px] h-[700px] rounded-2xl flex flex-col items-center">
+    <div className="sticky top-28 bg-white  text-black shadow-lg p-6 w-full sm:w-[400px] h-[700px] rounded-2xl flex flex-col items-center">
       <div className="bg-slate-300 w-[320px] rounded-xl">
         <img src={img1} alt="Profile" className="h-[310px] w-[230px] block mx-auto" />
       </div>
       <div className="text-center">
         <h2 className="text-2xl font-bold mt-8">Cris Rayaan 👋</h2>
-        <p className="text-gray-700 dark:text-white mt-6">
+        <p className="text-gray-700  mt-6">
           A Passionate <b>Full Stack Developer</b> 💻 & Product Designer having
           12 years of experience worldwide.
         </p>
@@ -21,7 +21,7 @@ const CrisRayaan = () => {
         </button>
         <button className="border p-2 rounded-lg">📩 Copy Email</button>
       </div>
-      <div className="flex items-center dark:text-white mt-8 gap-4">
+      <div className="flex items-center mt-8 gap-4">
         {[FaFacebook, FaPinterest, FaGithub, FaYoutube].map((Icon, idx) => (
           <div
             key={idx}

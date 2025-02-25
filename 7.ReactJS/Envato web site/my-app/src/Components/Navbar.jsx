@@ -23,7 +23,7 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <nav className="sticky z-50 top-5 bg-white dark:bg-gray-900 dark:text-white shadow-md rounded-2xl p-3 flex justify-between items-center py-5 font-bricolage container mx-auto">
+    <nav className="sticky z-50 top-5 bg-white shadow-md rounded-2xl p-3 flex justify-between items-center py-5 font-bricolage container mx-auto">
       <div className="text-4xl font-bold flex items-center">
         <Link to="/" className="text-black dark:text-white">
           Bento
@@ -115,10 +115,9 @@ const Navbar = () => {
       )}
       <div className="flex gap-3">
         <div className="">
-          <button
-            onClick={() => setDarkMode(!darkMode)}
-            className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700"
-          >
+        <button className="p-2 rounded-lg bg-gray-200">
+          onClick={() => setDarkMode(!darkMode)}
+           
             {darkMode ? <Sun /> : <Moon />}
           </button>
         </div>

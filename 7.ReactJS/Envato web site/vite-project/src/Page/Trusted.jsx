@@ -51,7 +51,7 @@ const Trusted = () => {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
-              className="bg-white dark:bg-gray-900 text-black dark:text-white p-6 rounded-lg mx-4 shadow-lg flex flex-col justify-between min-h-[250px]"
+              className="bg-white text-black  p-6 rounded-lg mx-4 shadow-lg flex flex-col justify-between min-h-[250px]"
             >
               <div className="flex items-center justify-between">
                 <div className="flex">
@@ -70,9 +70,9 @@ const Trusted = () => {
                   {testimonial.website} ↗
                 </a>
               </div>
-              <p className="mt-4 text-gray-700 dark:text-gray-300">"{testimonial.review}"</p>
+              <p className="mt-4 text-black ">"{testimonial.review}"</p>
               <p className="mt-2 font-bold">
-                {testimonial.name} - <span className="text-gray-500">{testimonial.position}</span>
+                {testimonial.name} - <span className="text-black">{testimonial.position}</span>
               </p>
             </div>
           ))}

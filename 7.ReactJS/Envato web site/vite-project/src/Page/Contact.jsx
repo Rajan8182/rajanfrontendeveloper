@@ -27,8 +27,8 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row gap-3">
         <CrisRayaan />
 
-        <div className="w-[870px] p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
-          <h2 className="text-3xl md:text-4xl font-bold dark:text-white text-gray-800">
+        <div className="w-[870px] p-6 bg-white  text-black  shadow-lg rounded-2xl">
+          <h2 className="text-3xl md:text-4xl font-bold  text-gray-800">
             Let's 👋 <span className="text-blue-600">Work</span> Together
           </h2>
           <p className="text-gray-600 mt-4">
@@ -37,11 +37,11 @@ const Contact = () => {
             the next level.
           </p>
 
-          <div className="bg-white dark:bg-gray-800 text-black dark:text-white p-6 rounded-lg shadow-md mt-6">
+          <div className="bg-white  text-black  p-6 rounded-lg shadow-md mt-6">
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block dark:text-white text-gray-700">
+                  <label className="block  text-gray-700">
                     Name
                   </label>
                   <input
@@ -49,13 +49,13 @@ const Contact = () => {
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full p-2 border dark:bg-gray-700 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="w-full p-2 border  rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     placeholder="Enter your name"
                     required
                   />
                 </div>
                 <div>
-                  <label className="block dark:text-white text-gray-700">
+                  <label className="block  text-gray-700">
                     Email
                   </label>
                   <input
@@ -63,7 +63,7 @@ const Contact = () => {
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full p-2 border dark:bg-gray-700 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="w-full p-2 border  rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     placeholder="Enter your email"
                     required
                   />
@@ -72,7 +72,7 @@ const Contact = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
-                  <label className="block dark:text-white text-gray-700">
+                  <label className="block  text-gray-700">
                     Subject
                   </label>
                   <input
@@ -80,20 +80,20 @@ const Contact = () => {
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    className="w-full p-2 border dark:bg-gray-700 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="w-full p-2 border  rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     placeholder="Subject"
                     required
                   />
                 </div>
                 <div>
-                  <label className="block dark:text-white text-gray-700">
+                  <label className="block  text-gray-700">
                     Budget
                   </label>
                   <select
                     name="budget"
                     value={formData.budget}
                     onChange={handleChange}
-                    className="w-full p-2 border dark:bg-gray-700 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                    className="w-full p-2 border  rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
                     required
                   >
                     <option value="">Select budget...</option>
@@ -105,14 +105,14 @@ const Contact = () => {
               </div>
 
               <div>
-                <label className="block dark:text-white text-gray-700">
+                <label className="block  text-gray-700">
                   Comment
                 </label>
                 <textarea
                   name="comment"
                   value={formData.comment}
                   onChange={handleChange}
-                  className="w-full p-2 border dark:bg-gray-700 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full p-2 border  rounded focus:ring-2 focus:ring-blue-500 focus:outline-none"
                   placeholder="Type details about your inquiry"
                   rows="4"
                   required

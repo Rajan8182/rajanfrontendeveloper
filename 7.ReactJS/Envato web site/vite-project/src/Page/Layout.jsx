@@ -10,7 +10,7 @@ import Contact from "./Contact";
 
 const Layout = () => {
   return (
-    <div className="bg-[#f0f2f5] dark:bg-gray-900 text-black dark:text-white min-h-screen">
+    <div className="bg-[#f0f2f5]  text-black  min-h-screen">
       <BrowserRouter>
         <Navbar />
         <Routes>

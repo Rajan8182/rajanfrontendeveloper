@@ -35,9 +35,9 @@ const Works = () => {
     <div className="container mx-auto py-10 font-['Bricolage Grotesque', sans-serif]">
       <div className="flex  gap-3">
         <CrisRayaan />
-        <div className="w-[870px] p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
+        <div className="w-[870px] p-6 bg-white  text-black  shadow-lg rounded-2xl">
           <section className=" mx-auto">
-            <h2 className="font-bold text-gray-800 dark:text-white text-4xl">
+            <h2 className="font-bold text-gray-800  text-4xl">
               Check Out My Latest{" "}
               <span className="text-blue-600">Projects</span>
             </h2>
@@ -51,7 +51,7 @@ const Works = () => {
               {projects.map((project) => (
                 <div
                   key={project.id}
-                  className="bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-lg p-5 hover:shadow-xl transition"
+                  className="bg-white  text-black  shadow-lg rounded-lg p-5 hover:shadow-xl transition"
                 >
                   <img
                     src={project.image}
@@ -137,7 +137,7 @@ const Works = () => {
           </section>
           <marquee
             class="marq"
-            className="border  flex justify-between  dark:bg-gray-800 text-black dark:text-white bg-gray-100 p-4 font-bold text-4xl hover:bg-white rounded-lg mt-6"
+            className="border  flex justify-between   text-black  bg-gray-100 p-4 font-bold text-4xl hover:bg-white rounded-lg mt-6"
             direction="left"
             loop=""
           >

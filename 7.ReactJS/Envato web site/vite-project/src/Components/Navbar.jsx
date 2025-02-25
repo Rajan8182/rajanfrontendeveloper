@@ -6,7 +6,7 @@ import { Moon, Sun, Menu, X } from "lucide-react";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [darkMode, setDarkMode] = useState(() => {
-    return localStorage.getItem("theme") === "light"; // First Load: Stored theme check
+    return localStorage.getItem("theme") === "light";
   });
 
   useEffect(() => {
@@ -20,14 +20,14 @@ const Navbar = () => {
   }, [darkMode]);
 
   return (
-    <nav className="sticky z-50 top-5 bg-white dark:bg-gray-900 dark:text-white shadow-md rounded-2xl p-3 flex justify-between items-center py-5 font-bricolage container mx-auto">
+    <nav className="sticky z-50 top-5 bg-white  shadow-md rounded-2xl p-3 flex justify-between items-center py-5 font-bricolage container mx-auto">
       <div className="text-4xl font-bold flex items-center">
-        <Link to="/" className="text-black dark:text-white">Bento</Link>
+        <Link to="/" className="text-black ">Bento</Link>
         <span className="text-blue-600">Folio</span>
       </div>
 
       {/* Desktop Navigation */}
-      <ul className="hidden md:flex space-x-6 text-gray-600 dark:text-gray-300">
+      <ul className="hidden md:flex space-x-6 text-gray-600 ">
         {[
           { path: "/", label: "Home", icon: <FaHome className="text-xl" /> },
           { path: "/about", label: "About", icon: <FaUser className="text-xl" /> },
@@ -36,7 +36,7 @@ const Navbar = () => {
           { path: "/blog", label: "Blog", icon: <FaBlog className="text-xl" /> },
           { path: "/contact", label: "Contact", icon: <FaCommentDots className="text-xl" /> },
         ].map((item, idx) => (
-          <li key={idx} className="hover:text-black dark:hover:text-white cursor-pointer">
+          <li key={idx} className="hover:text-black  cursor-pointer">
             <Link to={item.path} className="flex space-x-2">
               {item.icon} <span>{item.label}</span>
             </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <ul className="absolute top-16 left-0 w-full bg-white dark:bg-gray-900 dark:text-white shadow-lg p-5 flex flex-col space-y-4 text-center md:hidden">
+        <ul className="absolute top-16 left-0 w-full bg-white  shadow-lg p-5 flex flex-col space-y-4 text-center md:hidden">
           {[
             { path: "/", label: "Home" },
             { path: "/about", label: "About" },
@@ -60,7 +60,7 @@ const Navbar = () => {
             { path: "/blog", label: "Blog" },
             { path: "/contact", label: "Contact" },
           ].map((item, idx) => (
-            <li key={idx} className="hover:text-black dark:hover:text-white cursor-pointer">
+            <li key={idx} className="hover:text-black  cursor-pointer">
               <Link to={item.path} onClick={() => setIsOpen(false)}>
                 {item.label}
               </Link>
@@ -73,14 +73,14 @@ const Navbar = () => {
       <div className="flex gap-3">
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700"
+          className="p-2 rounded-lg bg-gray-600 "
         >
           {darkMode ? <Sun /> : <Moon />}
         </button>
 
         <div className="hidden md:flex items-center">
           <Link to="/contact">
-            <button className="bg-black hover:bg-blue-700 dark:bg-black dark:hover:bg-blue-700 dark:text-white text-white px-4 py-2 rounded-lg flex items-center">
+            <button className="bg-black hover:bg-blue-700 dark:bg-black 700  text-white px-4 py-2 rounded-lg flex items-center">
               Let's Talk ⬇
             </button>
           </Link>

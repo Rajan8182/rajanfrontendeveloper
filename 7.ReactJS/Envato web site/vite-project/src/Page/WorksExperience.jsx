@@ -14,7 +14,7 @@ const WorksExperience = () => {
   return (
     <div>
       <div className="flex  flex-col">
-        <div className="bg-white shadow-md p-6 dark:bg-gray-800 text-black dark:text-white rounded-2xl w-[420px]">
+        <div className="bg-white shadow-md p-6  text-black  rounded-2xl w-[420px]">
           <h2 className="font-bold mb-10 text-3xl text-center">Work Experience</h2>
           <div className="flex flex-col items-center space-y-1 h-[217px] text-nowrap overflow-y-hidden marqueeContainer">
             <div className="marqueeDiv">
@@ -123,7 +123,7 @@ const WorksExperience = () => {
           </div>
         </div>
 
-        <div className="bg-white shadow-md p-6 dark:bg-gray-800 text-black dark:text-white rounded-2xl w-[420px] h-[340px] mt-3">
+        <div className="bg-white shadow-md p-8 text-center  text-black  rounded-2xl w-[420px] h-[340px] mt-3">
         <h2 className="font-bold mb-10 text-3xl text-center">My Expert Area</h2>
           <div className="grid grid-cols-2  gap-4">
             <div className=" flex mt-8 gap-24">

@@ -32,7 +32,7 @@ const Faqs = () => {
   };
 
   return (
-    <div className="mt-10 max-w-2xl mx-auto  bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100   ">
+    <div className="mt-10 max-w-2xl mx-auto  bg-white  text-gray-900    ">
       <h1 className="text-4xl font-bold text-center mb-6">Frequently Asked Questions</h1>
 
       <div className="space-y-4 w-[700px]">
@@ -40,7 +40,7 @@ const Faqs = () => {
           <div
             key={index}
             className={`border dark:border-gray-700 p-5 rounded-lg transition-all duration-300 ${
-              openIndex === index ? "bg-white dark:bg-gray-800 shadow-lg" : "bg-gray-100 dark:bg-gray-700"
+              openIndex === index ? "bg-white  shadow-lg" : "bg-gray-100 "
             }`}
           >
             <div

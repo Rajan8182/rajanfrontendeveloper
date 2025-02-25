@@ -29,7 +29,7 @@ const ArticleandPublications = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 md:px-16 mt-9 bg-white dark:bg-gray-800 text-black dark:text-white">
+    <div className="container mx-auto px-4 md:px-16 mt-9 bg-white  text-black ">
       <h1 className="text-3xl sm:text-4xl font-bold mb-6">Articles & Publications</h1>
       <Slider {...settings} className="flex items-stretch">
         {articles.map((article) => (
@@ -41,9 +41,9 @@ const ArticleandPublications = () => {
                 alt={article.title}
               />
             </div>
-            <div className="text-left mt-3 flex flex-col justify-between flex-1">
+            <div className="text-left mt-9 flex flex-col justify-between flex-1">
               <h1 className="text-lg sm:text-xl md:text-2xl hover:text-blue-600 font-semibold">{article.title}</h1>
-              <div className="mt-3 text-gray-400 dark:text-gray-300 text-sm flex justify-between">
+              <div className="mt-3 text-gray-400 text-sm flex justify-between">
                 <span>{article.time}</span>
                 <span>{article.date}</span>
               </div>

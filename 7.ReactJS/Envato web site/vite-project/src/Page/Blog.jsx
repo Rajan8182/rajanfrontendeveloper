@@ -59,7 +59,7 @@ const Blog = () => {
     <div className="container mx-auto py-10 font-['Bricolage Grotesque', sans-serif]">
       <div className="flex gap-3">
         <CrisRayaan />
-        <div className="w-[870px] p-6 bg-white dark:bg-gray-800 text-black dark:text-white shadow-lg rounded-2xl">
+        <div className="w-[870px] p-6 bg-white  text-black  shadow-lg rounded-2xl">
           <h1 className="text-3xl md:text-4xl font-bold">
             My Recent Articles & Publications
           </h1>
